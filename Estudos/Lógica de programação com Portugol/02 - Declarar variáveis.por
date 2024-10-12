@@ -7,8 +7,8 @@ programa
 	funcao inicio()
 	{
 
-	cadeia texto = "Criando variáveis"
-	
-		escreva(texto)
+	// cadeia esta iniciando variáveis do tipo cadeia, nome1 e nome2 são duas váriaveis separadas por vírgula
+	cadeia nome1, nome2
+	inteiro idade1, idade2
 	}
 }

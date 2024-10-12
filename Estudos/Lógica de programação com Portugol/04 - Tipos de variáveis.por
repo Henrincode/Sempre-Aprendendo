@@ -7,13 +7,22 @@ programa
 	funcao inicio()
 	{
 
+  // caracter armazena apenas uma letra que deve estar entre ''.
 	caracter letra = 'a'
+
+  // cadeia armazena um texto que deve estar entre "".
   cadeia texto = "texto"
+
+  // inteiro armazena apenas números inteiros.
   inteiro numero = 123
-  real numeroDecimal = 0.123
+
+  // real armazena números com fração decimal.
+  real numeroDecimal = 1.234
+
+  // logico armazena apenas "verdadeiro" ou "falso".
   logico teste = verdadeiro
 	
-		escreva(letra, "\n") // esse "\n" serve para quebrar uma linha no console.
+		escreva(letra, "\n")
     escreva(texto, "\n")
     escreva(numero, "\n")
     escreva(numeroDecimal, "\n")
