@@ -10,6 +10,7 @@ programa
 	cadeia nome
 	
 		escreva("Informe seu nome: ")
+    
     // Função leia() vai guardar a informação digitada pelo usuário na variável informada.
     leia(nome)
 
