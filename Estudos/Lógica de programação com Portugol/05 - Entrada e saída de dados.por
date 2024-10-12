@@ -10,8 +10,11 @@ programa
 	cadeia nome
 	
 		escreva("Informe seu nome: ")
+    // Função leia() vai guardar a informação digitada pelo usuário na variável informada.
     leia(nome)
-    limpa() // função para limpar o terminal
+
+    // Função para limpar() o terminal
+    limpa()
     escreva("Olá ", nome, ".")
 	}
 }
