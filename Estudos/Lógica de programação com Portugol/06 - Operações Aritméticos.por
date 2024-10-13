@@ -36,6 +36,5 @@ programa
     escreva(numero1, " x ", numero2, " = ", multiplicacao, "\n")
     escreva(numero1, " / ", numero2, " = ", divisao, "\n")
 
-
 	}
 }
