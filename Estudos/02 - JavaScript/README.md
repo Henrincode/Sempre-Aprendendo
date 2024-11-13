@@ -16,6 +16,7 @@ No VS Code, instale a extensão **Code Runner**, criada por *Jun Han*. Com ela, 
 ## Terminal
 
 Aprenda a usar o terminal:
+
 - Windows: [Iniciando com o terminal do Windows](https://blog.formacao.dev/iniciando-com-o-terminal-do-windows/)
 - Linux/Mac: [Terminal no macOS/Linux](https://blog.formacao.dev/terminal-no-macos-linux/)
 
