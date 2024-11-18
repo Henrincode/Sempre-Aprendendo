@@ -18,6 +18,8 @@
 
 <img> Imagem
 
+<spam> tem display inline "na mesma linha"
+
 
 ---------
 css
@@ -36,5 +38,21 @@ css
 "width" largura
 "font-size" tamanho da fonte
 
-"display: block" padrão
-"display: none" oculta a div
+"display: block" padrão, ocupa a linha inteira
+"display: none" esconde elemento
+"display: inline" coloca em linha mas não considera altura e largura
+"display: inline-block" coloca em linha considerando altura e largura
+
+"flex-direction: row" padrão, organiza em linha
+"flex-direction: column" organiza por coluna
+"flex-direction: column-reverse" inverte a coluna
+
+// justfy-content alinha ao eixo principal
+// align-items alinha ao eixo cruzado
+
+"justify-content: start" posiciona no inicio da linha
+"justify-content: end" posiciona no fim da linha
+"justify-content: space-between" centraliza e da espaço somente no meio
+"justify-content: space-around" centraliza, da espaços no meio e laterais
+
+"align-items:" start, center, end e streatch "estica se não tiver altura definida"
