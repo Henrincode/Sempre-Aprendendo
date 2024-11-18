@@ -22,6 +22,10 @@ Aprenda a usar o terminal:
 
 ### Comandos úteis
 
+```ctrl +``` "almenta o tamanho da fonte"<br/>
+```ctrl -``` "diminui o tamanho da fonte" <br/>
+```ctrl L``` "limpa o terminal"
+
 Para verificar a versão do Node.js instalada:
 ```bash
 node --version
