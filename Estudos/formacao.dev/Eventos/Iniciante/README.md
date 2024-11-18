@@ -56,3 +56,7 @@ css
 "justify-content: space-around" centraliza, da espaços no meio e laterais
 
 "align-items:" start, center, end e streatch "estica se não tiver altura definida"
+
+"flex-grow: 1, faz o item que tem a propriedade oculpar o espaço vazio
+
+min-height: 100vh faz o body ocupar a tela toda
