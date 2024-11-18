@@ -16,7 +16,8 @@ No VS Code, instale a extensão **Code Runner**, criada por *Jun Han*. Com ela, 
 ### Atalhos do Visual Code
 ```shift + alt + ↓``` "duplica linha"<br/>
 ```ctrl + alt + ↓``` "seleciona vários elementos"<br/>
-```alt + click``` "seleciona várias áreas do código e edita ao mesmo tempo"
+```alt + click``` "seleciona várias áreas do código e edita ao mesmo tempo"<br/>
+```alt + ↓``` "move a linha toda"
 
 ## Terminal
 
