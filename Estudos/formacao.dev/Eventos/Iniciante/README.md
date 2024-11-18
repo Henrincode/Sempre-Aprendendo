@@ -2,6 +2,7 @@
 <head> Cabeça do documento
 <body> Corpo visivel do documento
 
+<div> Divisão
 <header> Cabeçalho
 <footer> Rodapé
 <main> Conteúdo principal
@@ -14,3 +15,5 @@
 
 <ol> "Order list" cria uma lista
 <li> linha da lista
+
+<img> Imagem
