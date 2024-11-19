@@ -1,3 +1,2 @@
-<div class="flex justify-center items-center bg-black text-white min-h-screen">
-    <h1 class="text-3xl font-bold">Welcome to SvelteKit</h1>
-</div>
+    <h1 class="text-3xl font-bold">Ordem dos livros</h1>
+    <a href="/autores">Autores</a>
