@@ -1,88 +1,143 @@
-# Documentação das Tags HTML e Propriedades CSS
+# Guia Completo e Detalhado de HTML e CSS
 
-Este documento descreve as principais tags HTML e propriedades CSS aprendidas, explicando seus usos e funcionalidades.
+## Estrutura Completa do HTML
 
----
+HTML oferece diversas tags e funcionalidades para estruturar e manipular o conteúdo de forma detalhada.
 
-## Estrutura HTML Básica
+### Estrutura e Conteúdo Básico
+- **`<!DOCTYPE html>`**: Define o tipo de documento como HTML5.
+- **`<html lang="pt-BR">`**: Define a linguagem do documento para português do Brasil.
+- **`<head>`**: Metadados e informações do documento.
+  - **`<title>`**: Título da página, aparece na aba do navegador.
+  - **`<meta charset="UTF-8">`**: Define a codificação de caracteres para UTF-8.
+  - **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`**: Responsividade para dispositivos móveis.
+  - **`<meta name="description" content="Descrição da página">`**: Resumo da página para SEO.
+  - **`<link rel="stylesheet" href="style.css">`**: Inclui um arquivo CSS externo.
+  - **`<style>`**: CSS interno.
+  - **`<script src="script.js">`**: Inclui um arquivo JavaScript.
+- **`<body>`**: Conteúdo principal da página.
 
-### Elementos Estruturais
-- **`<html>`**: Tag que representa o documento HTML.
-- **`<head>`**: Cabeçalho do documento; contém metadados como título, links para estilos e scripts.
-- **`<body>`**: Corpo visível do documento, onde o conteúdo principal é inserido.
-
-### Estrutura de Layout e Seções
+### Estrutura Semântica HTML5
 - **`<header>`**: Cabeçalho da página ou seção.
-- **`<footer>`**: Rodapé da página.
+- **`<nav>`**: Menu de navegação, geralmente com links.
 - **`<main>`**: Conteúdo principal do documento.
-- **`<aside>`**: Conteúdo lateral, geralmente usado para menus laterais ou barras de informação.
-- **`<nav>`**: Área de navegação, com links para outras páginas ou seções do site.
+- **`<section>`**: Define uma seção ou agrupamento de conteúdo.
+- **`<article>`**: Representa conteúdo independente, como uma postagem.
+- **`<aside>`**: Conteúdo lateral, como uma barra de informações.
+- **`<footer>`**: Rodapé da página ou seção.
 
-### Elementos de Conteúdo
-- **`<div>`**: Divisão genérica de conteúdo, usada para agrupar elementos.
-- **`<h1>`**: Título principal da página. Há também `<h2>` até `<h6>` para subtítulos.
-- **`<p>`**: Parágrafo.
+### Elementos de Texto e Formatação
+- **`<h1>` a `<h6>`**: Títulos e subtítulos, onde `<h1>` é o maior e `<h6>` o menor.
+- **`<p>`**: Parágrafo de texto.
 - **`<br>`**: Quebra de linha.
-- **`<a>`**: Link para outra página ou seção.
-- **`<img>`**: Imagem no documento, com atributos para definir a fonte, texto alternativo e tamanho.
+- **`<hr>`**: Linha horizontal, utilizada para separar conteúdo.
+- **`<strong>`**: Texto em negrito para ênfase.
+- **`<em>`**: Texto em itálico para ênfase.
+- **`<blockquote>`**: Citação em bloco.
+- **`<q>`**: Citação inline.
+- **`<pre>`**: Preserva o formato de texto, útil para código.
+- **`<code>`**: Indica um trecho de código.
+- **`<mark>`**: Destaca texto.
+
+### Links e Mídia
+- **`<a href="URL">`**: Link.
+  - **Atributo `target="_blank"`**: Abre o link em uma nova aba.
+- **`<img src="URL" alt="Descrição">`**: Exibe uma imagem.
+  - **Atributo `width` e `height`**: Define dimensões da imagem.
+- **`<audio controls src="URL">`**: Reproduz áudio.
+- **`<video controls src="URL">`**: Reproduz vídeo.
+  - **`<source>`**: Especifica arquivos de mídia alternativos para `<video>` ou `<audio>`.
 
 ### Listas
-- **`<ol>`**: Lista ordenada (numerada).
-- **`<ul>`**: Lista não ordenada (marcadores).
-- **`<li>`**: Item da lista (usado em `<ol>` e `<ul>`).
+- **`<ul>`**: Lista não ordenada.
+- **`<ol>`**: Lista ordenada.
+- **`<li>`**: Item de lista.
+- **`<dl>`**: Lista de definição.
+  - **`<dt>`**: Termo da definição.
+  - **`<dd>`**: Definição do termo.
 
-### Elementos Inline
-- **`<span>`**: Contêiner de texto inline, usado para aplicar estilos sem quebrar a linha.
+### Elementos de Formulário
+- **`<form action="URL" method="POST">`**: Define um formulário.
+  - **`<input>`**: Campo de entrada, tipos incluem `text`, `password`, `email`, `number`, `checkbox`, `radio`, etc.
+  - **`<label>`**: Rótulo para um campo de formulário.
+  - **`<textarea>`**: Campo de entrada de múltiplas linhas.
+  - **`<button>`**: Botão para ações.
+  - **`<select>`**: Menu suspenso.
+  - **`<option>`**: Opção dentro de um `<select>`.
+  - **`<fieldset>`**: Agrupa campos de formulário.
+  - **`<legend>`**: Rótulo para `<fieldset>`.
 
+### Tags Obsoletas e Outros Elementos
+- **`<center>`** e **`<font>`**: Obsoletas, usava-se para centralizar e definir fontes; agora são substituídas pelo CSS.
+  
 ---
 
-## Estilos CSS Básicos
+## Propriedades Avançadas de CSS
 
-### Seletores
-- **`#id`**: Seletor de ID, utilizado para elementos únicos.
-- **`.class`**: Seletor de classe, aplicado a múltiplos elementos.
+CSS permite controlar o layout, a aparência e até animações de páginas web.
 
-### Propriedades Visuais
-- **`color`**: Cor do texto.
-- **`background-color`**: Cor de fundo do elemento.
-- **`font-size`**: Tamanho da fonte.
-- **`padding`**: Margem interna do elemento.
+### Seletores Avançados
+- **`element, element`**: Seleciona múltiplos elementos.
+- **`element.class`**: Seleciona elementos específicos com uma classe.
+- **`element#id`**: Seleciona elementos específicos com um ID.
+- **`element element`**: Seleciona elementos filhos.
+- **`:hover`, `:active`, `:focus`**: Pseudoclasses para interações.
+- **`:nth-child(n)`**: Seleciona o enésimo filho.
+- **`::before`, `::after`**: Adiciona conteúdo antes ou depois de um elemento.
+
+### Cores e Textos
+- **`color`**: Define a cor do texto.
+- **`background-color`**: Define a cor de fundo.
+- **`background-image`**: Define uma imagem de fundo.
+- **`font-family`**: Tipo da fonte.
+- **`font-weight`**: Espessura do texto.
+- **`text-align`**: Alinhamento do texto (`left`, `right`, `center`, `justify`).
+- **`text-transform`**: Altera a capitalização (`uppercase`, `lowercase`, `capitalize`).
+
+### Modelo de Caixa
+- **`width`, `height`**: Largura e altura.
+- **`margin`**: Espaço externo.
+- **`padding`**: Espaço interno.
 - **`border`**: Borda ao redor do elemento.
-- **`margin`**: Margem externa do elemento.
+- **`border-radius`**: Arredonda bordas.
+- **`box-sizing: border-box`**: Inclui borda e padding nas dimensões.
 
-### Dimensões
-- **`height`**: Altura do elemento.
-- **`width`**: Largura do elemento.
-- **`min-height: 100vh`**: Define altura mínima de 100% da altura da janela, garantindo que o `body` ocupe a tela inteira.
+### Flexbox e Grid Layout
+#### Flexbox
+- **`display: flex`**: Habilita o flexbox.
+- **`flex-direction`**: Define a direção dos itens (`row`, `column`).
+- **`justify-content`** e **`align-items`**: Alinhamento ao longo do eixo principal e cruzado.
+- **`flex-wrap`**: Permite itens quebrarem para a próxima linha.
 
-### Controle de Exibição (`display`)
-- **`display: block`**: Elemento ocupa a linha inteira (ex.: `<div>`, `<p>`).
-- **`display: none`**: Elemento oculto.
-- **`display: inline`**: Coloca o elemento em linha, mas sem respeitar altura/largura.
-- **`display: inline-block`**: Coloca o elemento em linha, considerando altura e largura.
+#### Grid Layout
+- **`display: grid`**: Habilita o Grid Layout.
+- **`grid-template-columns` e `grid-template-rows`**: Define estrutura de colunas e linhas.
+- **`gap`**: Espaçamento entre células do grid.
 
----
+### Posições
+- **`position: static`**: Padrão, sem posição.
+- **`position: relative`**: Movimenta em relação à posição padrão.
+- **`position: absolute`**: Posiciona em relação ao contêiner pai.
+- **`position: fixed`**: Fixa na tela.
+- **`z-index`**: Controla a sobreposição.
 
-## Layout Flexbox
+### Animações e Transições
+- **`transition`**: Define transições suaves (ex.: `transition: all 0.3s ease`).
+- **`animation`**: Define animações.
+  - **`@keyframes`**: Define etapas de uma animação.
 
-Flexbox é uma técnica para organizar layouts mais flexíveis e adaptáveis.
+### Transformações
+- **`transform: rotate`, `scale`, `translate`, `skew`**: Permite rotação, redimensionamento e movimento de elementos.
+- **`opacity`**: Define transparência (de 0 a 1).
 
-### Direção e Alinhamento
-- **`flex-direction: row`**: Organiza elementos em linha (horizontal).
-- **`flex-direction: column`**: Organiza elementos em coluna (vertical).
-- **`flex-direction: column-reverse`**: Organiza em coluna invertida.
+### Efeitos de Sombra e Filtros
+- **`box-shadow`**: Adiciona sombra.
+- **`filter`**: Aplica efeitos como `blur`, `brightness`, `contrast`.
 
-### Alinhamento Principal (`justify-content`)
-- **`justify-content: start`**: Alinha elementos ao início.
-- **`justify-content: end`**: Alinha elementos ao final.
-- **`justify-content: space-between`**: Distribui espaço entre os itens.
-- **`justify-content: space-around`**: Distribui espaço entre e ao redor dos itens.
-
-### Alinhamento Cruzado (`align-items`)
-- **`align-items: start`**: Alinha ao início do eixo cruzado.
-- **`align-items: center`**: Centraliza no eixo cruzado.
-- **`align-items: end`**: Alinha ao final do eixo cruzado.
-- **`align-items: stretch`**: Estica itens se a altura não estiver definida.
-
-### Crescimento Flexível
-- **`flex-grow: 1`**: Permite que o item ocupe o espaço vazio restante no contêiner flex.
+### Media Queries e Responsividade
+- **`@media`**: Aplicação de estilos para dispositivos específicos.
+  ```css
+  @media (max-width: 768px) {
+      /* Estilos para telas pequenas */
+  }
+  ```
