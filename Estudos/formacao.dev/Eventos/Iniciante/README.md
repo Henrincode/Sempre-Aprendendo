@@ -136,6 +136,7 @@ CSS permite controlar o layout, a aparência e até animações de páginas web.
 
 ### Media Queries e Responsividade
 - **`@media`**: Aplicação de estilos para dispositivos específicos.
+
   ```css
   @media (max-width: 768px) {
       /* Estilos para telas pequenas */
