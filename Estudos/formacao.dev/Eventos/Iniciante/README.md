@@ -86,7 +86,3 @@ Flexbox é uma técnica para organizar layouts mais flexíveis e adaptáveis.
 
 ### Crescimento Flexível
 - **`flex-grow: 1`**: Permite que o item ocupe o espaço vazio restante no contêiner flex.
-
----
-
-Esta estrutura ajudará na organização do conteúdo HTML e CSS do projeto. Qualquer atualização ou nova tag/propriedade pode ser adicionada conforme o aprendizado avança.
