@@ -18,6 +18,7 @@ No VS Code, instale a extensão **Code Runner**, criada por *Jun Han*. Com ela, 
 ```ctrl + alt + ↓``` "seleciona vários elementos"<br/>
 ```alt + click``` "seleciona várias áreas do código e edita ao mesmo tempo"<br/>
 ```alt + ↓``` "move a linha toda"
+```ctrl + X``` "apaga uma linha"
 
 ## Terminal
 
