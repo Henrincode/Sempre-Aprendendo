@@ -11,7 +11,7 @@ programa {
   funcao inicio() {
 
     escreva("Digite um número: ")
-    leiaInteiro()
+    leiaCaracter()
 
   }
 
@@ -30,4 +30,18 @@ programa {
       leiaInteiro()
     }
   }
+
+  // Transforma cadeia en caracter
+  funcao leiaCaracter() {
+    leia(enter)
+    se(ti.cadeia_e_caracter(enter)) {
+      enter_c = ti.cadeia_para_caracter(enter)
+    } senao {
+      limpa()
+      escreva("Erro! o sistema aguarda um caracter\nTente novamente: ")
+      leiaCaracter()
+    }
+  }
+
+
 }
