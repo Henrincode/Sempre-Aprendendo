@@ -19,7 +19,19 @@ programa {
    Trata erros de entrada
   */
 
-  // Transforma cadeia para real
+  // Transforma cadeia en caracter
+  funcao leiaCaracter() {
+    leia(enter)
+    se(ti.cadeia_e_caracter(enter)) {
+      enter_c = ti.cadeia_para_caracter(enter)
+    } senao {
+      limpa()
+      escreva("Erro! o sistema aguarda um caracter\nTente novamente: ")
+      leiaCaracter()
+    }
+  }
+
+  // Transforma cadeia para inteiro
   funcao leiaInteiro() {
     leia(enter)
     se(ti.cadeia_e_inteiro(enter, 10)) {
@@ -31,7 +43,7 @@ programa {
     }
   }
 
-  // Transforma cadeia en caracter
+  // Transforma cadeia en real
   funcao leiaCaracter() {
     leia(enter)
     se(ti.cadeia_e_caracter(enter)) {
