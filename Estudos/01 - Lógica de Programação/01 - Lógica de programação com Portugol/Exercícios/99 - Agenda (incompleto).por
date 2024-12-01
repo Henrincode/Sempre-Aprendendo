@@ -11,9 +11,9 @@ programa {
   funcao inicio() {
 
     limpa()
+    agendaOrdem()
     agendaExibir()
     agendaAdd()
-    agendaOrdem()
     inicio()
 
     
@@ -27,6 +27,7 @@ programa {
 
     // Adiciona nomes
     funcao agendaAdd() {
+      escreva("Digite um nome: ")
       leia(enter)
       se(agendaTamanho < 50){
         agendaNome[agendaTamanho] = enter
@@ -37,13 +38,15 @@ programa {
     // Organiza os nomes
     funcao agendaOrdem() {
       cadeia atual = ""
-      para (inteiro i = 0; i < 49; i++) {
-        se(agendaNome[i] > agendaNome[i+1]) {
-          atual = agendaNome[i]
-          agendaNome[i] = agendaNome[i+1]
-          agendaNome[i+1] = atual
+      para (inteiro j = 0; j < agendaTamanho; j++) {
+        para (inteiro i = 0; i < agendaTamanho; i++) {
+          se(agendaNome[i] > agendaNome[i+1]) {
+            atual = agendaNome[i]
+            agendaNome[i] = agendaNome[i+1]
+            agendaNome[i+1] = atual
+          }
         }
-      }
+     }
     }
 
     // Exibe Agenda
