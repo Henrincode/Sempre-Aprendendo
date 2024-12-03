@@ -4,7 +4,7 @@ programa {
 
   cadeia enter = "", agendaNome[50]
   caracter enter_c = ' '
-  inteiro enter_i = 0, agendaTamanho = 0
+  inteiro enter_i = 0, agendaTel[50], agendaTamanho = 0
   real enter_r = 0.0
   logico enter_l = falso
 
@@ -15,9 +15,6 @@ programa {
     agendaExibir()
     agendaAdd()
     inicio()
-
-    
-
 
     }
 
