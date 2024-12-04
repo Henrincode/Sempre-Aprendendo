@@ -29,7 +29,7 @@ programa {
         escreva("Digite um nome: ")
         leia(enter)
         agendaNome[agendaTamanho] = enter
-        escreva("\nDigite um telefone: ")
+        escreva("\nDigite um telefone ex 19912345678\nSem espaços: ")
         leiaInteiro()
         agendaTel[agendaTamanho] = enter_i
         agendaTamanho++
