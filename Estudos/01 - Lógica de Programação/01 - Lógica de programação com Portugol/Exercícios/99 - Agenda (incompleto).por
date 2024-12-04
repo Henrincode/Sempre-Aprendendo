@@ -11,9 +11,10 @@ programa {
   funcao inicio() {
 
     limpa()
-    agendaOrdem()
+    
     agendaExibir()
     agendaAdd()
+    agendaOrdem()
     inicio()
 
     }
@@ -44,7 +45,7 @@ programa {
     // Organiza os nomes
     funcao agendaOrdem() {
       cadeia atualNome = ""
-      inteiro atualTel = 0
+      inteiro atualTel
       para (inteiro j = 0; j < agendaTamanho; j++) {
         para (inteiro i = 0; i < agendaTamanho; i++) {
           se(agendaNome[i] > agendaNome[i+1]) {
@@ -52,8 +53,8 @@ programa {
             agendaNome[i] = agendaNome[i+1]
             agendaNome[i+1] = atualNome
             
-            atualTel = agentaTel[i]
-            agendaTel[i] = agentaTel[i+1]
+            atualTel = agendaTel[i]
+            agendaTel[i] = agendaTel[i+1]
             agendaTel[i+1] = atualTel
           }
         }
@@ -63,9 +64,11 @@ programa {
     // Exibe Agenda
     funcao agendaExibir() {
       se(agendaTamanho > 0) {
-        para(inteiro i = 0; i <= agendaTamanho; i++) {
+        escreva("TELEFONE      NOME\n----------------------\n")
+        para(inteiro i = 0; i < agendaTamanho; i++) {
         escreva(agendaTel[i], " - ", agendaNome[i], "\n")
         }
+        escreva("\n")
       }
     }
 
