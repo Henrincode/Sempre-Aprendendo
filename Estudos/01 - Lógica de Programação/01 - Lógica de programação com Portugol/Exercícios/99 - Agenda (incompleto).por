@@ -24,23 +24,37 @@ programa {
 
     // Adiciona nomes
     funcao agendaAdd() {
-      escreva("Digite um nome: ")
-      leia(enter)
       se(agendaTamanho < 50){
+        escreva("Digite um nome: ")
+        leia(enter)
         agendaNome[agendaTamanho] = enter
+        escreva("\nDigite um telefone: ")
+        leiaInteiro()
+        agendaTel[agendaTamanho] = enter_i
         agendaTamanho++
       }
     }
 
+    funcao agendaAddTel() {
+      escreva("Digite um telefone para o cotato: ")
+
+      
+    }
+
     // Organiza os nomes
     funcao agendaOrdem() {
-      cadeia atual = ""
+      cadeia atualNome = ""
+      inteiro atualTel = 0
       para (inteiro j = 0; j < agendaTamanho; j++) {
         para (inteiro i = 0; i < agendaTamanho; i++) {
           se(agendaNome[i] > agendaNome[i+1]) {
-            atual = agendaNome[i]
+            atualNome = agendaNome[i]
             agendaNome[i] = agendaNome[i+1]
-            agendaNome[i+1] = atual
+            agendaNome[i+1] = atualNome
+            
+            atualTel = agentaTel[i]
+            agendaTel[i] = agentaTel[i+1]
+            agendaTel[i+1] = atualTel
           }
         }
      }
@@ -50,7 +64,7 @@ programa {
     funcao agendaExibir() {
       se(agendaTamanho > 0) {
         para(inteiro i = 0; i <= agendaTamanho; i++) {
-        escreva(agendaNome[i], "\n")
+        escreva(agendaTel[i], " - ", agendaNome[i], "\n")
         }
       }
     }
