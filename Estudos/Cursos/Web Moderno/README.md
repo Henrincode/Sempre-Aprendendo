@@ -13,6 +13,23 @@ O **npm** (Node Package Manager) é o gerenciador de pacotes do Node.js. Ele fac
 
 No VS Code, instale a extensão **Code Runner**, criada por *Jun Han*. Com ela, você poderá rodar o código Node.js diretamente no VS Code, usando o atalho `Ctrl+Alt+N` ou clicando no ícone de play no canto superior direito. **IMPORTANTE:** Se você selecionar parte do código, o Code Runner executará apenas o trecho selecionado; para rodar todo o código, deixe o texto sem seleção.
 
+**Configuração Code Runner**
+
+Sempre limpa o terminal quando executa um novo teste:
+
+![image](https://github.com/user-attachments/assets/689b306c-0975-43e5-ac4f-a40334d13fb1)
+
+Salva o arquivo antes de rodar o teste:
+
+![image](https://github.com/user-attachments/assets/ab7f8e0f-73a5-41d1-8c8b-4ac5fc5fa842)
+
+Ignora rodar só o código selecionado, assim ele roda o código todo da página:
+
+![image](https://github.com/user-attachments/assets/8bf3a6ce-946c-4168-9530-ebad0f8a47ef)
+
+
+
+
 ### Atalhos do Visual Code
 ```ctrl + shift + P``` "abre a caixa de pesquisa"<br/>
 ```shift + alt + ↓``` "duplica linha"<br/>
