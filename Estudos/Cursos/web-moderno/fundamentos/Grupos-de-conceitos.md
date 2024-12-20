@@ -1,4 +1,4 @@
-1) Sentençã
+1) Sentença
 2) Bloco
 
 ### Exemplo do Livro
@@ -24,3 +24,18 @@ O **livro** é a integração de todas essas partes em uma narrativa coerente e 
 6. **Aplicações** - são o resultado de todas essas partes trabalhando juntas de forma ordenada.  
 
 Uma **aplicação** é o equivalente a um livro: o resultado da composição de várias camadas organizadas.  
+
+1) Sentença
+em javascript uma sentença de código pode ou não conter ponto e virgula ";"
+console.log("oi")
+console.log("oi");
+
+uma sentença de códogo pode ecupar várias linhas, ex:
+
+console
+.log(
+    "Oi"
+);
+
+Em algumas linguagems é obrigatório o uso de ; para finalizar uma sentença, como o Java, C++
+2) Bloco
