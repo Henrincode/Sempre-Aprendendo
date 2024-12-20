@@ -1,41 +1,85 @@
-1) Sentença
-2) Bloco
+**1. Sentença**
 
-### Exemplo do Livro
+Uma **sentença** é uma unidade básica de código que representa uma instrução completa.  
 
-1. **Letras** - combinam-se para formar **palavras**.  
-2. **Palavras** - unem-se para criar **frases**.  
-3. **Frases** - compõem **parágrafos**.  
-4. **Parágrafos** - estruturam **seções**.  
-5. **Seções** - organizam-se em **capítulos**.  
-6. **Capítulos** - juntos, formam o **livro**.  
+### Sentenças em JavaScript
+- Em JavaScript, uma sentença pode ou não terminar com um ponto e vírgula (`;`).  
 
-O **livro** é a integração de todas essas partes em uma narrativa coerente e organizada.  
+Exemplos:  
+```javascript
+console.log("oi")
+```
+ou  
+```javascript
+console.log("oi");
+```
+
+### Sentenças em Múltiplas Linhas
+Uma sentença pode ocupar várias linhas ou incluir espaços extras. Isso é permitido, mas o código deve ser sempre legível e organizado.  
+
+Exemplo:  
+```javascript
+console
+  .log(
+    "Oi"
+  );
+```
+
+### Diferença entre Linguagens
+- Em linguagens como **Java** e **C++**, o uso do ponto e vírgula (`;`) é obrigatório para finalizar uma sentença.  
+- Já em **JavaScript**, ele é opcional na maioria dos casos, mas recomendado para evitar erros.
 
 ---
 
-### Exemplo da Linguagem de Programação
+**2. Bloco**
 
-1. **Caracteres** - juntam-se para criar **variáveis e operadores**.  
-2. **Variáveis e operadores** - combinam-se para construir **instruções**.  
-3. **Instruções** - agrupam-se para formar **funções**.  
-4. **Funções** - integram-se para criar **módulos**.  
-5. **Módulos** - colaboram para estruturar **aplicações**.  
-6. **Aplicações** - são o resultado de todas essas partes trabalhando juntas de forma ordenada.  
+Um **bloco** é um conjunto de sentenças agrupadas entre chaves `{ }`. Ele é usado para organizar o código e definir escopos.
 
-Uma **aplicação** é o equivalente a um livro: o resultado da composição de várias camadas organizadas.  
+### Exemplo de Bloco
+```javascript
+{
+    console.log("Este é o início do bloco.");
+    let mensagem = "Blocos ajudam na organização!";
+    console.log(mensagem);
+}
+```
 
-1) Sentença
-em javascript uma sentença de código pode ou não conter ponto e virgula ";"
-console.log("oi")
-console.log("oi");
+### Uso Comum de Blocos
+Blocos são usados para:  
+- Definir o corpo de funções.  
+- Estruturar condicionais (`if`, `else`).  
+- Agrupar instruções dentro de laços (`for`, `while`).  
 
-uma sentença de códogo pode ecupar várias linhas, ex:
+Exemplo dentro de uma função:  
+```javascript
+function saudacao(nome) {
+    if (nome) {
+        console.log(`Olá, ${nome}!`);
+    } else {
+        console.log("Olá, visitante!");
+    }
+}
+```
 
-console
-.log(
-    "Oi"
-);
+---
 
-Em algumas linguagems é obrigatório o uso de ; para finalizar uma sentença, como o Java, C++
-2) Bloco
+**Comparação: Livro vs Linguagem de Programação**
+
+**No Livro:**  
+1. Letras formam palavras.  
+2. Palavras formam frases.  
+3. Frases compõem parágrafos.  
+4. Parágrafos estruturam seções.  
+5. Seções organizam capítulos.  
+6. Capítulos formam o livro.  
+
+O **livro** é a soma dessas partes em uma narrativa organizada.
+
+**Na Linguagem de Programação:**  
+1. Caracteres formam variáveis e operadores.  
+2. Variáveis e operadores criam instruções.  
+3. Instruções compõem funções.  
+4. Funções integram módulos.  
+5. Módulos estruturam aplicações.  
+
+Uma **aplicação** é o resultado de várias partes organizadas, assim como um livro.
