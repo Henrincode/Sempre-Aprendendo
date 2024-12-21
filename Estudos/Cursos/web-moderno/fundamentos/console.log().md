@@ -5,9 +5,12 @@ Em JavaScript, o `console.log()` é um método utilizado para exibir mensagens n
 ### Exemplo simples:
 ```javascript
 console.log("Olá, mundo!");
+// Também podem ser usadas aspas simples ''
+console.log('Olá, mundo!');
 ```
 **Saída no console:**
 ```
+Olá, mundo!
 Olá, mundo!
 ```
 
@@ -25,13 +28,13 @@ O nome é: Henrique
 
 - **Exibir valores de objetos ou arrays:**
 ```javascript
-let pessoa = { nome: "Henrique", idade: 33 };
+let pessoa = { nome: "Henrique", idade: 34 };
 console.log(pessoa);
 ```
 
 **Saída no console:**
 ```
-{ nome: "Henrique", idade: 33 }
+{ nome: "Henrique", idade: 34 }
 ```
 
 - **Depuração:**
