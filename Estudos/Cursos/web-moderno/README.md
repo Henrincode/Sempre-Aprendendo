@@ -31,6 +31,8 @@ Ignora rodar só o código selecionado, assim ele roda o código todo da página
 
 
 ### Atalhos do Visual Code
+```ctrl + ;``` "comenta a linha selecionada"<br/>
+```shft + alt + A``` "faz comentários de várias linhas"<br/>
 ```ctrl + shift + P``` "abre a caixa de pesquisa"<br/>
 ```shift + alt + ↓``` "duplica linha"<br/>
 ```ctrl + alt + ↓``` "seleciona vários elementos"<br/>
