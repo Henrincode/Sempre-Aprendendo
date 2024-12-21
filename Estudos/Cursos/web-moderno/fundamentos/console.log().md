@@ -1,3 +1,5 @@
+# console.log()
+
 Em JavaScript, o `console.log()` é um método utilizado para exibir mensagens no console do navegador ou do ambiente de desenvolvimento (como o Node.js). Ele é muito útil para depuração, ou seja, para verificar o valor de variáveis, o fluxo de execução do código, ou identificar possíveis problemas no código.
 
 ### Exemplo simples:
