@@ -17,15 +17,15 @@ No VS Code, instale a extensão **Code Runner**, criada por *Jun Han*. Com ela, 
 
 Sempre limpa o terminal quando executa um novo teste:
 
-![image](https://github.com/user-attachments/assets/689b306c-0975-43e5-ac4f-a40334d13fb1)
+![image](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/img/code-runner-clear-previous-output.png)
 
 Salva o arquivo antes de rodar o teste:
 
-![image](https://github.com/user-attachments/assets/ab7f8e0f-73a5-41d1-8c8b-4ac5fc5fa842)
+![image](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/img/code-runner-save-file-before-run.png)
 
 Ignora rodar só o código selecionado, assim ele roda o código todo da página:
 
-![image](https://github.com/user-attachments/assets/8bf3a6ce-946c-4168-9530-ebad0f8a47ef)
+![image](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/img/code-runner-ignore-selection.png)
 
 
 
