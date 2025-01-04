@@ -59,7 +59,7 @@ comando1 && comando2
 ```
 Para abrir uma diretório ou caminho:
 ```bash
-cd
+cd nome-do-diretorio ou caminho
 ```
 
 Para subir um diretório:
