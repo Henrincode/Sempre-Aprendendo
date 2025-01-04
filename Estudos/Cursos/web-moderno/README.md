@@ -53,8 +53,27 @@ Aprenda a usar o terminal:
 ```ctrl -``` "diminui o tamanho da fonte" <br/>
 ```ctrl L``` "limpa o terminal"
 
+Para dar mais de um comando em uma linha:
+```
+comando1 && comando2
+```
+Para abrir uma diretório ou caminho:
+```
+cd nome-do-diretorio ou caminho
+```
+
+Para subir um diretório:
+```
+cd..
+```
+
+Para criar um diretório:
+```
+mkdir nome-da-pasta
+```
+
 Para verificar a versão do Node.js instalada:
-```bash
+```
 node --version
 ```
 
@@ -63,12 +82,17 @@ Para verificar a versão do npm instalada:
 npm --version
 ```
 
+Para abrir um arquivo ou diretório no Visual Code digite "." dentro do diretório:
+```
+code .
+```
+
 Para abrir um arquivo ou pasta no Visual Code:
-```bash
+```
 code nomedoarquivo.js
 ```
 
 Para abrir um arquivo no Node:
-```bash
+```
 node nomedoarquivo.js
 ```
