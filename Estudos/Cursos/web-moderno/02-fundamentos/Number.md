@@ -1,3 +1,4 @@
+É uma função
 Number('2.0')
 Transforma string em número
 
