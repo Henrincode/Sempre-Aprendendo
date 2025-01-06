@@ -1,5 +1,6 @@
 console.log(7 / 0); // ao invés de travar retorna infinito
 console.log("10" / 2); // verifica se a string é number, se for faz a operação
+console.log("3" + 2); // nesse caso por ser "+" vai concatenar
 console.log("Show" * 2); // Algumas linguagens escreveria Show Show, javascript n faz isso
 // console.log(10.toString());
 console.log((10).toString());
