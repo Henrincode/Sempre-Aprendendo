@@ -1,0 +1,1 @@
+Math.ceil(6.1) arredonda o número para cima

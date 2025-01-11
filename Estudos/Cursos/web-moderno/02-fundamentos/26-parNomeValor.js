@@ -4,7 +4,6 @@
 const saudacao = 'Opa'; // nome = saudacao, valor = 'Opa'
 
 // Contexto léxico 2
-
 function exec(){
     const saudacao = 'Falaaa';
     return saudacao;
