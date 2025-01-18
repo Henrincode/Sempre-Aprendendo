@@ -15,4 +15,4 @@ let opcao = 0;
 while (opcao !== -1) {
     opcao = aleatorio(-1, 10); // Chama a função aleatorio e armazena o valor gerado na variável opcao
     console.log(`Opção escolhida foi ${opcao}`); // Exibe a opção gerada no console
-}
+};
