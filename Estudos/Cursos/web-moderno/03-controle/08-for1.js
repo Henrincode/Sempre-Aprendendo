@@ -1,21 +1,21 @@
-// Exemplo usando o laço 'for'
+// Exemplo usando o laço for
 
-// Diferenças entre usar contador com While e For
+// Diferenças entre usar contador com while e for
 let contador = 1;
 
-// Usando o laço 'while' para imprimir valores até 10
+// Laço while: a variável é inicializada antes e a condição é verificada a cada iteração.
 while (contador <= 10) {
-    console.log(`Contador = ${contador}`); // console.log 01: Exibe o valor do contador
-    contador++;
+    console.log(`Contador = ${contador}`);
+    contador++; // Incrementa o contador a cada iteração
 }
 
-// Usando o laço 'for', onde a variável de controle já é inicializada no próprio laço
+// Laço for: a variável é inicializada diretamente na condição do laço e o incremento ocorre após cada execução.
 for (let i = 1; i <= 10; i++) {
-    console.log(`i = ${i}`); // console.log 02: Exibe o valor de 'i'
+    console.log(`i = ${i}`);
 }
 
-// Usando o laço 'for' para percorrer um array
+// Usando o for para percorrer um array
 const notas = [6.7, 7.4, 9.8, 8.1, 7.7];
 for (let i = 0; i < notas.length; i++) {
-    console.log(`Nota = ${notas[i]}`); // console.log 03: Exibe o valor da nota no índice 'i' do array
+    console.log(`Nota = ${notas[i]}`);
 }
