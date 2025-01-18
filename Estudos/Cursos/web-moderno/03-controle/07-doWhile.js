@@ -2,17 +2,21 @@
 
 // Função para gerar um número aleatório dentro de um intervalo (min, max)
 function aleatorio(min = 0, max = 100) {
+    // Garante que o valor de 'min' será menor que 'max', caso contrário, os valores são trocados
     if (min > max) {
         [min, max] = [max, min]; // Se min for maior que max, troca os valores
-    };
-    const valor = Math.random() * (max - min) + min; // Gera um número decimal aleatório dentro do intervalo
-    return Math.round(valor); // Arredonda o número para o inteiro mais próximo
+    }
+    
+    // Gera um número decimal aleatório dentro do intervalo e o arredonda para o inteiro mais próximo
+    const valor = Math.random() * (max - min) + min;
+    return Math.round(valor); // Retorna o valor arredondado
 }
 
-let opcao; // Como o Do/While vai primeiro inserir o valor da variavel apra depois comparar não é necessário atribuir valor aqui, somente inicair a variável
+let opcao; // Inicializa a variável 'opcao', sem atribuir um valor inicial
 
-// Mesmo que a contição já tenha sido atendida o Do/While vai executar o bloco ao menos uma vez
+// O laço 'do/while' sempre executa o bloco de código pelo menos uma vez antes de verificar a condição
 do {
-    opcao = aleatorio(-1, 10);opcao
-    console.log(`Opção escolhida foi ${opcao}`);
-} while (opcao !== -1);
+    // Chama a função aleatorio para definir a 'opcao', que será gerada aleatoriamente entre -1 e 10
+    opcao = aleatorio(-1, 10); 
+    console.log(`Opção escolhida foi ${opcao}`); // Exibe a opção gerada no console
+} while (opcao !== -1); // Continua repetindo até que a opção gerada seja -1
