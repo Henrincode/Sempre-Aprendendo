@@ -1,4 +1,4 @@
-// Exemplo usando o laço for
+// Exemplo usando o laço for (para)
 
 // Diferenças entre usar contador com while e for
 let contador = 1;
