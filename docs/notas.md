@@ -1,5 +1,8 @@
 fazer lista de exercicios
 
-- jogos
--- forca
--- velha
+-sistemas
+--todo
+
+-jogos
+--forca
+--velha
