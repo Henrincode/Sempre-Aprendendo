@@ -6,16 +6,16 @@ console.log(obj1);
 
 // Criando um objeto com a função construtora Object
 console.log(typeof Object, typeof new Object()); // Object é uma função, new Object() cria um objeto
-const obj2 = new Object(); // Criando um objeto a partir de Object
+const obj2 = new Object(); // Criando um objeto a partir do construtor Object
 console.log(obj2);
 
 // Criando objetos usando funções construtoras
 function Produto(nome, preco, desconto) {
-    this.nome = nome; // Atributo público
+    this.nome = nome; // Atributo público, acessível externamente
     
     // Método para calcular o preço com desconto
     this.getPrecoComDesconto = function() {
-        return preco * (1 - desconto);
+        return preco * (1 - desconto); // preço com aplicação do desconto
     };
 }
 
@@ -31,7 +31,7 @@ function criarFuncionario(nome, salarioBase, faltas) {
         faltas,
         // Método para calcular o salário com base nas faltas
         getSalario() {
-            return (salarioBase / 30) * (30 - faltas);
+            return (salarioBase / 30) * (30 - faltas); // Cálculo do salário proporcional aos dias trabalhados
         }
     };
 }
@@ -44,3 +44,7 @@ console.log(f1.getSalario(), f2.getSalario());
 const filha = Object.create(null); // Cria um objeto sem protótipo
 filha.nome = 'Ana';
 console.log(filha);
+
+// Criando um objeto a partir de um JSON
+const fromJSON = JSON.parse('{"Info": "Sou um JSON"}'); // Converte uma string JSON em um objeto JavaScript
+console.log(fromJSON);
