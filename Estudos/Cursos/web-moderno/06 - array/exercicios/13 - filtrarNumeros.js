@@ -7,11 +7,7 @@
 // filtrarNumeros(["a", "e", "c"]) // retornará []
 
 const filtrarNumeros = p => {
-    const temp = [];
-    for(let i = 0; i < p.length; i++){
-        if(typeof p[i] == "number") temp.push(p[i]);
-    };
-    console.log(temp);
+    console.log(p.filter(p => typeof p == "number"));
 };
 
 filtrarNumeros(["Javascript", 1, "3", "Web", 20]); // retornará [1, 20]
