@@ -16,11 +16,9 @@ const funcaoDaSorte = n => {
     const max = 10;
     const numeroAleatorio = Math.floor(Math.random() * (max - min + 1)) + min;
 
-    if (n === numeroAleatorio){
-        console.log(`Parabéns! O numero sorteado foi o ${numeroAleatorio}`);
-    } else {
-        console.log(`Que pena! O numero sorteado foi o ${numeroAleatorio}`);
-    };
+    console.log(n === numeroAleatorio ?
+    `Parabéns! O numero sorteado foi o ${numeroAleatorio}`:
+    `Que pena! O numero sorteado foi o ${numeroAleatorio}`)
 };
 
 funcaoDaSorte(3);
