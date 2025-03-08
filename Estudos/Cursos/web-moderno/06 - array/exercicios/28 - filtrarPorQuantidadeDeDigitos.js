@@ -9,7 +9,7 @@
 // filtrarPorQuantidadeDeDigitos([5, 9, 1, 125, 11], 1) // retornará [5, 9, 1]
 
 const filtrarPorQuantidadeDeDigitos = (numeros, digitos) => {
-    console.log(numeros.filter(numeros => numeros.toString().length == digitos))
+    console.log(numeros.filter(numeros => Math.abs(numeros).toString().length == digitos))
 }
 
 
