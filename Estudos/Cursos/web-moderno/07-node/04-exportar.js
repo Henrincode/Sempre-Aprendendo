@@ -57,4 +57,4 @@ console.log(module.exports === this)
 // Saída: false
 
 console.log(module.exports === exports) 
-// Saída: false
+// Saída: falsecd
