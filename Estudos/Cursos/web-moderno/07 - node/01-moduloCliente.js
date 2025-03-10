@@ -3,8 +3,8 @@
 // Podemos exportar valores e funções de um módulo para serem utilizados em outros arquivos
 
 // Importando os módulos criados anteriormente
-const moduloA = require('./01 - moduloA');
-const moduloB = require('./01 - moduloB');
+const moduloA = require('./01-moduloA');
+const moduloB = require('./01-moduloB');
 
 // Acessando e exibindo os valores exportados de moduloA
 console.log(moduloA.ola); // 'Fala Pessoal'
