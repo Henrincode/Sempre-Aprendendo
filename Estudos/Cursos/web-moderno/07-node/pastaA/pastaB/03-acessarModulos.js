@@ -17,11 +17,11 @@ console.log(moduloA.ola);
 
 // Criando um módulo na pasta 'modules' para evitar o uso de caminhos relativos
 const saudacao = require('03-saudacao');
-console.log(saudacao.ola2);
+console.log(saudacao.ola);
 
 // Caso o arquivo na pasta 'pastaC' seja index.js, não é necessário referenciar o nome do arquivo
-const c = require('./pastaC/');
-console.log(c.ola2);
+const c = require('./pastaC');
+console.log(c.ola);
 
 // Módulos internos do Node.js, chamados de Modulos Core, podem ser usados diretamente sem necessidade de instalação
     // const http = require('http');
