@@ -23,5 +23,12 @@ function getProdutos() {
     return Object.values(produtos) // Converte o objeto produtos em um array com todos os valores
 }
 
+// Função para excluir um produto do "banco de dados"
+function excluirProduto(id) {
+    const produto = produtos[id] // Armazena o produto a ser excluído antes de removê-lo
+    delete produtos[id] // Remove o produto do objeto produtos usando o ID como chave
+    return produto // Retorna o produto excluído
+}
+
 // Exporta as funções para uso em outros arquivos
-module.exports = { salvarProduto, getProduto, getProdutos }
+module.exports = { salvarProduto, getProduto, getProdutos, excluirProduto }
