@@ -7,7 +7,8 @@
 - `let` → Escopo de bloco, pode ser reatribuída  
 - `const` → Escopo de bloco, não pode ser reatribuída
 
-  [**Clique aqui para ver mais detalhes!**](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/JavaScript/variavel.md)
+[**Clique aqui para ver mais detalhes!**](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/JavaScript/variavel.md)
+
 ---
 
 ### **2 Operadores**  
@@ -47,6 +48,8 @@
 #### **2.5 Outros Operadores**  
 - `typeof` → Retorna o tipo da variável  
 - `instanceof` → Verifica se um objeto é instância de uma classe  
+
+[**Clique aqui para ver mais detalhes**](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/JavaScript/operadores.md)
 
 ---
 
