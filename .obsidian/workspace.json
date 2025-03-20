@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "5fac1d744e22158f",
+    "id": "c72fd1329a9a73d0",
     "type": "split",
     "children": [
       {
-        "id": "3a3d8ce0e175e8e3",
+        "id": "9c90d98958874109",
         "type": "tabs",
         "children": [
           {
-            "id": "1fb5d6c6d72c2397",
+            "id": "e2a484ac8fde1d86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "html.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "html"
+              "title": "Nova aba"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5ff89ff1d709585b",
+    "id": "34ed0c22880515b2",
     "type": "split",
     "children": [
       {
-        "id": "1e6a2a1fc2a46553",
+        "id": "b72ef098dc8a9e43",
         "type": "tabs",
         "children": [
           {
-            "id": "9d34f146e07baef5",
+            "id": "477e064bb88b025c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "3b7e435e0c433f66",
+            "id": "91392b5fc2a2216f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "0cc9a67568e9e856",
+            "id": "dad46b53c4ad9dd3",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "ebc7e898d79202af",
+    "id": "7a7e1531307c295e",
     "type": "split",
     "children": [
       {
-        "id": "e2da14f39bd2454f",
+        "id": "66fc94cb75daa4df",
         "type": "tabs",
         "children": [
           {
-            "id": "4b0ab184f0cacd78",
+            "id": "9d43a342b2f2e207",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para html"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "4f21389764dbb28a",
+            "id": "6f141c7e8a7cc1ea",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "html.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para html"
+              "title": "Links de saída"
             }
           },
           {
-            "id": "59ebab63e47b9b47",
+            "id": "56e1ac05708e73ff",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "f7dc692e5f4dceb6",
+            "id": "81d83214a899f6b9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "html.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de html"
+              "title": "Sumário"
             }
           }
         ]
@@ -168,16 +161,6 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1fb5d6c6d72c2397",
-  "lastOpenFiles": [
-    "---prototypes.md",
-    "html.md",
-    "portugol.md",
-    "short-circuit.md",
-    "JavaScript/variavel.md",
-    "JavaScript/readme.md",
-    "JavaScript/---prototypes.md",
-    "novas notas/t2.md",
-    "novas notas/Sem título.md"
-  ]
+  "active": "e2a484ac8fde1d86",
+  "lastOpenFiles": []
 }
