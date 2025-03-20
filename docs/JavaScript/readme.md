@@ -7,7 +7,7 @@
 - `let` → Escopo de bloco, pode ser reatribuída  
 - `const` → Escopo de bloco, não pode ser reatribuída
 
-[**Clique aqui para ver mais detalhes!**](https://github.com/Henrincode/Sempre-Aprendendo/blob/main/docs/JavaScript/variavel.md)
+[**Clique aqui para ver mais detalhes!**](variavel.md)
 
 ---
 
