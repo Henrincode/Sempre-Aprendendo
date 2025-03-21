@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3a3d8ce0e175e8e3",
+        "id": "41684be84e44fd4a",
         "type": "tabs",
         "children": [
           {
-            "id": "1fb5d6c6d72c2397",
+            "id": "fea4cd35a6511336",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -168,10 +168,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "1fb5d6c6d72c2397",
+  "active": "9d34f146e07baef5",
   "lastOpenFiles": [
-    "operadores.md",
     "JavaScript/README.md",
+    "operadores.md",
     "html.md",
     "---prototypes.md",
     "portugol.md",

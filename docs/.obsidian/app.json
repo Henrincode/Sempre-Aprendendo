@@ -4,5 +4,5 @@
   "newFileFolderPath": "novas notas",
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "relative"
 }
