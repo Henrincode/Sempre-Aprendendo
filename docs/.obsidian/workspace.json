@@ -11,17 +11,16 @@
             "id": "fea4cd35a6511336",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "JavaScript/README.md",
-                "mode": "source",
-                "source": false
+                "file": "img/code-runner-clear-previous-output.png"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-image",
+              "title": "code-runner-clear-previous-output"
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -170,15 +169,20 @@
   },
   "active": "fea4cd35a6511336",
   "lastOpenFiles": [
+    "certificados/certificado_EN.pdf",
+    "JavaScript/Node.js/bibliotecas/lodash.md",
+    "JavaScript/Node.js/bibliotecas/fs.md",
+    "JavaScript/Node.js/bibliotecas/axios.md",
     "JavaScript/README.md",
     "JavaScript/operadores.md",
+    "JavaScript/---prototypes.md",
+    "novas notas/Sem título.md",
+    "logica/operadores.md",
+    "JavaScript/variavel.md",
     "html.md",
     "---prototypes.md",
     "portugol.md",
     "short-circuit.md",
-    "JavaScript/variavel.md",
-    "JavaScript/---prototypes.md",
-    "novas notas/t2.md",
-    "novas notas/Sem título.md"
+    "novas notas/t2.md"
   ]
 }

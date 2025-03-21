@@ -1,7 +1,6 @@
 ### **📌 Hierarquia Completa do JavaScript**  
 
 ---
-
 ### **1 Declaração de Variáveis**  
 - `var` → Antiga, escopo de função, pode ser redeclarada  
 - `let` → Escopo de bloco, pode ser reatribuída  
@@ -10,7 +9,6 @@
 [**Clique aqui para ver mais detalhes!**](variavel.md)
 
 ---
-
 ### **2 Operadores**  
 
 #### **2.1 Atribuição**  
