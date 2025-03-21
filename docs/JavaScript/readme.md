@@ -45,7 +45,7 @@
 - `typeof` → Retorna o tipo da variável  
 - `instanceof` → Verifica se um objeto é instância de uma classe  
 
-[**Clique aqui para ver mais detalhes**](operadores)
+[**Clique aqui para ver mais detalhes**](operadores.md)
 
 ---
 ### **3 Tipos de Dados**  
