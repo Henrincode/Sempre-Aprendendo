@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "html.md",
+                "file": "JavaScript/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "html"
+              "title": "README"
             }
           }
         ]
@@ -170,12 +170,13 @@
   },
   "active": "1fb5d6c6d72c2397",
   "lastOpenFiles": [
-    "---prototypes.md",
+    "JavaScript/operadores.md",
+    "JavaScript/README.md",
     "html.md",
+    "---prototypes.md",
     "portugol.md",
     "short-circuit.md",
     "JavaScript/variavel.md",
-    "JavaScript/readme.md",
     "JavaScript/---prototypes.md",
     "novas notas/t2.md",
     "novas notas/Sem título.md"
