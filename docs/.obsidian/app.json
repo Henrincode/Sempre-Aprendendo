@@ -2,5 +2,7 @@
   "livePreview": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "novas notas",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest"
 }
