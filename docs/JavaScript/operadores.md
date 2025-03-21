@@ -1,10 +1,42 @@
-## Documentação Detalhada sobre Operadores em JavaScript
-
-## 2. Operadores
+## Operadores em JavaScript
 
 Os operadores em JavaScript são usados para realizar operações em variáveis e valores. Eles podem ser classificados em diversas categorias, como operadores de atribuição, comparação, lógicos, bit a bit e outros.
 
-### 2.1 Operadores de Atribuição
+Aqui está a versão ajustada:  
+
+### Operadores Aritméticos
+
+- `+` → Adiciona dois valores.
+
+  ```javascript
+  let soma = 10 + 5; // soma agora é 15
+  ```
+
+- `-` → Subtrai um valor do outro.
+
+  ```javascript
+  let subtracao = 20 - 8; // subtracao agora é 12
+  ```
+
+- `*` → Multiplica dois valores.
+
+  ```javascript
+  let multiplicacao = 4 * 3; // multiplicacao agora é 12
+  ```
+
+- `/` → Divide um valor pelo outro.
+
+  ```javascript
+  let divisao = 16 / 4; // divisao agora é 4
+  ```
+
+- `%` → Retorna o resto da divisão entre dois valores.
+
+  ```javascript
+  let modulo = 10 % 3; // modulo agora é 1 (10 dividido por 3 tem resto 1)
+  ```  
+
+### Operadores de Atribuição
 
 Os operadores de atribuição são utilizados para armazenar valores em variáveis.
 
@@ -56,7 +88,7 @@ Os operadores de atribuição são utilizados para armazenar valores em variáve
   d **= 3; // d agora é 8 (equivalente a d = d ** 3)
   ```
 
-### 2.2 Operadores de Comparação
+### Operadores de Comparação
 
 Esses operadores são usados para comparar dois valores.
 
@@ -112,7 +144,7 @@ Esses operadores são usados para comparar dois valores.
   console.log(5 <= 10); // true
   ```
 
-### 2.3 Operadores Lógicos
+### Operadores Lógicos
 
 Usados para combinar expressões booleanas.
 
@@ -134,7 +166,7 @@ Usados para combinar expressões booleanas.
   console.log(!true); // false
   ```
 
-### 2.4 Operadores Bit a Bit (Bitwise)
+### Operadores Bit a Bit (Bitwise)
 
 Esses operadores trabalham diretamente com bits.
 
@@ -174,7 +206,7 @@ Esses operadores trabalham diretamente com bits.
   console.log(5 >> 1); // 2 (binário: 0101 >> 1 = 0010)
   ```
 
-### 2.5 Outros Operadores
+### Outros Operadores
 
 - `typeof` → Retorna o tipo de dado da variável.
 
