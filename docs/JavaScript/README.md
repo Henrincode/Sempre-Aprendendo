@@ -64,17 +64,19 @@
 - `symbol` → Identificador único
 - `bigint` → Números inteiros grandes (`9007199254740991n`)
 
-[**Clique aqui para ver mais detalhes**](tipo-de-dados-primitivos.md)
+[**Clique aqui para ver mais detalhes**](tipos-de-dados-primitivos.md)
 
 ---
 ## 4 Estruturas de Dados
 
 - `Array` → Lista ordenada de elementos (`[1, 2, 3]`)
 - `Matriz` → Array multidimensional (`[[1, 2], [3, 4]]`)
-- `Object` → Estrutura de chave-valor (`{ nome: "Henrique", idade: 44 }`)
+- `Object` → Estrutura de chave-valor (`{ nome: "Henrique", idade: 34 }`)
 - `Set` → Conjunto de valores únicos
 - `Map` → Estrutura chave-valor otimizada
 - `WeakSet` e `WeakMap` → Versões fracas de `Set` e `Map` para otimização de memória
+
+[**Clique aqui para ver mais detalhes**](tipos-de-estruturas-de-dados.md)
 
 ---
 ## 5 Estruturas Condicionais
@@ -206,7 +208,7 @@ console.log([1, 2, 3].primeiro()); // 1
 - **Convertendo para JSON:**
 
 ```js
-const obj = { nome: "Henrique", idade: 44 };
+const obj = { nome: "Henrique", idade: 34 };
 const json = JSON.stringify(obj);
 ```
 
