@@ -87,6 +87,8 @@
 - `switch` → Alternativa ao `if/else`, mais otimizado para múltiplas opções
 - **Operador ternário** → `condição ? verdadeiro : falso`
 
+[**Clique aqui para ver mais detalhes**](condicional.md)
+
 ---
 ## 6 Laços de Repetição
 

@@ -1,4 +1,4 @@
-# Hierarquia Completa de Variáveis em JavaScript
+# Variáveis em JavaScript
 
 ## 1. Declaração de Variáveis
 

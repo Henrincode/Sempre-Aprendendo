@@ -1,4 +1,4 @@
-### O que é um comentário?
+# O que é um comentário?
 
 Um comentário é uma parte do código que o programa não executa. Ele é usado pelos programadores para adicionar explicações, notas ou desativar temporariamente trechos de código. Em JavaScript, há dois tipos:
 
