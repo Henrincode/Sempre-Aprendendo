@@ -219,3 +219,5 @@ class Animal {}
 let dog = new Animal();
 console.log(dog instanceof Animal); // true
 ```
+
+#variaveis #operadores #condicional
