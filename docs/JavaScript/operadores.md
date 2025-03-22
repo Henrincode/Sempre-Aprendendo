@@ -220,4 +220,93 @@ let dog = new Animal();
 console.log(dog instanceof Animal); // true
 ```
 
-#variaveis #operadores #condicional
+### **Operador Spread (`...`)**
+
+O operador **spread** (`...`) é utilizado para espalhar os valores de um **array** ou **objeto** em outro. Ele pode ser usado para copiar, combinar ou expandir elementos em arrays e objetos de maneira eficiente e legível.
+
+#### **Uso com Arrays**
+
+- **Copiar um array:**
+
+```javascript
+const numeros = [1, 2, 3];
+const copiaNumeros = [...numeros];
+console.log(copiaNumeros); // [1, 2, 3]
+```
+
+- **Concatenar arrays:**
+
+```javascript
+const array1 = [1, 2];
+const array2 = [3, 4];
+const combinado = [...array1, ...array2];
+console.log(combinado); // [1, 2, 3, 4]
+```
+
+- **Adicionar elementos no início ou fim de um array:**
+
+```javascript
+const array = [2, 3];
+const novoArray = [1, ...array, 4];
+console.log(novoArray); // [1, 2, 3, 4]
+```
+
+#### **Uso com Objetos**
+
+- **Copiar um objeto:**
+
+```javascript
+const pessoa = { nome: "João", idade: 30 };
+const copiaPessoa = { ...pessoa };
+console.log(copiaPessoa); // { nome: "João", idade: 30 }
+```
+
+- **Combinar objetos:**
+
+```javascript
+const pessoa = { nome: "João", idade: 30 };
+const endereco = { cidade: "São Paulo", estado: "SP" };
+const pessoaCompleta = { ...pessoa, ...endereco };
+console.log(pessoaCompleta);
+// { nome: "João", idade: 30, cidade: "São Paulo", estado: "SP" }
+```
+
+- **Modificar propriedades de um objeto:**
+
+```javascript
+const pessoa = { nome: "João", idade: 30 };
+const pessoaAtualizada = { ...pessoa, idade: 31, cidade: "Rio de Janeiro" };
+console.log(pessoaAtualizada);
+// { nome: "João", idade: 31, cidade: "Rio de Janeiro" }
+```
+
+#### **Uso em Funções**
+
+- **Passando elementos de um array como parâmetros para uma função:**
+
+```javascript
+function soma(a, b, c) {
+  return a + b + c;
+}
+
+const numeros = [1, 2, 3];
+console.log(soma(...numeros)); // 6
+```
+
+#### **Uso com Funções Rest e Spread**
+
+- **Combinando parâmetros em funções:**
+
+```javascript
+function saudacao(sauda, ...nomes) {
+  console.log(sauda + ' ' + nomes.join(', '));
+}
+
+saudacao("Olá", "João", "Maria", "Pedro");
+// Saída: Olá João, Maria, Pedro
+```
+### Conclusão
+
+O operador **spread** (`...`) é uma ferramenta poderosa em JavaScript, permitindo operações concisas e eficientes ao trabalhar com **arrays** e **objetos**. Ele facilita tarefas como cópias de dados, combinação de arrays e objetos, manipulação de parâmetros em funções, e integrações com bibliotecas/frameworks como o **React**.
+
+Por ser simples, legível e muito flexível, o operador spread é amplamente utilizado em diversos cenários para melhorar a clareza e a concisão do código.
