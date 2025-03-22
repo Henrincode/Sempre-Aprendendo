@@ -5,8 +5,23 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:JavaScript  ",
+      "color": {
+        "a": 1,
+        "rgb": 16762880
+      }
+    },
+    {
+      "query": "path:logica path:logica path:",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -18,5 +33,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.7132754626224425,
-  "close": false
+  "close": true
 }

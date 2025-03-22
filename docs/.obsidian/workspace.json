@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "41684be84e44fd4a",
+        "id": "576a05c2e23c9d9d",
         "type": "tabs",
         "children": [
           {
-            "id": "fea4cd35a6511336",
+            "id": "11aa022bb5459dbf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/code-runner-clear-previous-output.png"
+                "file": "JavaScript/README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "code-runner-clear-previous-output"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ],
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#teste",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,20 +169,35 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "fea4cd35a6511336",
+  "active": "11aa022bb5459dbf",
   "lastOpenFiles": [
-    "certificados/certificado_EN.pdf",
-    "JavaScript/Node.js/bibliotecas/lodash.md",
-    "JavaScript/Node.js/bibliotecas/fs.md",
-    "JavaScript/Node.js/bibliotecas/axios.md",
-    "JavaScript/README.md",
     "JavaScript/operadores.md",
-    "JavaScript/---prototypes.md",
-    "novas notas/Sem título.md",
-    "logica/operadores.md",
+    "JavaScript/README.md",
     "JavaScript/variavel.md",
+    "JavaScript/tipo-de-dados-primitivos.md",
+    "JavaScript/comentario-sentenca-bloco.md",
+    "novas notas/Sem título 1.md",
+    "novas notas/Sem título.md",
+    "novas notas/racunho.md",
+    "JavaScript/Aprendendo.md",
+    "novas notas/Tipos de dados primitivos.md",
+    "novas notas/Tipos.md",
+    "Notas soltas/JS prototypes.md",
+    "Notas soltas/JS - prototypes.md",
+    "Notas soltas",
+    "Sem título.canvas",
     "html.md",
-    "---prototypes.md",
+    "img/code-runner-clear-previous-output.png",
+    "JavaScript/Objetos Globais/Sem título.md",
+    "JavaScript/Objetos Globais/Array",
+    "JavaScript/Objetos Globais/String",
+    "JavaScript/Objetos Globais/Number",
+    "JavaScript/Objetos Globais",
+    "certificados/certificado_EN.pdf",
+    "JavaScript/-Node.js/bibliotecas/lodash.md",
+    "JavaScript/-Node.js/bibliotecas/fs.md",
+    "JavaScript/-Node.js/bibliotecas/axios.md",
+    "logica/operadores.md",
     "portugol.md",
     "short-circuit.md",
     "novas notas/t2.md"
