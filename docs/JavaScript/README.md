@@ -103,6 +103,8 @@
 - `while` → Executa enquanto a condição for verdadeira
 - `do while` → Executa pelo menos uma vez antes de verificar a condição
 
+[**Clique aqui para ver mais detalhes**](lacos-repeticao.md)
+
 ---
 ## 7 Métodos de Arrays
 
