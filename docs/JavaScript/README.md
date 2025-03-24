@@ -106,6 +106,7 @@
 [**Clique aqui para ver mais detalhes**](lacos-repeticao.md)
 
 ---
+
 ## 7 Métodos de Arrays
 
 - `.forEach()` → Itera sobre os elementos

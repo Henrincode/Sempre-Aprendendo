@@ -4,25 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "7fea72a06f82872a",
+        "id": "642a39cd03e04d46",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ba2fd565277b5f",
+            "id": "af3bca59fd7b8969",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/README.md",
+                "file": "rascunhos/short-circuit.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "short-circuit"
             }
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "a3339c7fae3c38fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa9a990e992de447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rascunhos/readme raiz.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "readme raiz"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "html.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para html"
+              "title": "Backlinks"
             }
           },
           {
@@ -143,21 +162,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "html.md",
+                "file": "rascunhos/short-circuit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de html"
+              "title": "Sumário de short-circuit"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,42 +188,46 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a8ba2fd565277b5f",
+  "active": "af3bca59fd7b8969",
   "lastOpenFiles": [
-    "JavaScript/lacos-repeticao.md",
-    "JavaScript/README.md",
-    "JavaScript/variavel.md",
-    "JavaScript/tipos-de-estruturas-de-dados.md",
-    "JavaScript/tipos-de-dados-primitivos.md",
-    "JavaScript/operadores.md",
-    "JavaScript/condicional.md",
-    "JavaScript/comentario-sentenca-bloco.md",
-    "rascunhos/operador-spread-(...).md",
-    "JavaScript/-Node.js/bibliotecas/axios.md",
-    "JavaScript/-Node.js/bibliotecas/fs.md",
-    "JavaScript/-Node.js/bibliotecas/lodash.md",
-    "JavaScript/-Node.js/bibliotecas.md",
-    "rascunhos/html.md",
-    "rascunhos/Aprendendo.md",
-    "rascunhos/JS prototypes.md",
-    "rascunhos/portugol.md",
-    "rascunhos/short-circuit.md",
-    "rascunhos/rascunho estrutura.md",
-    "rascunhos/racunho.md",
-    "rascunhos/Sem título 1.md",
+    "rascunhos/readme raiz.md",
+    "curso webmoderno/doc/organizar depois/01/Math.md",
+    "curso webmoderno/doc/organizar depois/01/typeof.md",
+    "curso webmoderno/doc/organizar depois/02/estrutura-de-dados.md",
+    "curso webmoderno/doc/organizar depois/01/sintaxe.md",
+    "curso webmoderno/doc/organizar depois/02/algoritmo.md",
+    "curso webmoderno/doc/organizar depois/01/sintaxe-vs-sentenca.md",
+    "curso webmoderno/doc/organizar depois/01/console.log().md",
+    "curso webmoderno/doc/organizar depois/01/comentarios.md",
+    "curso webmoderno/doc/organizar depois/01/Grupos-de-conceitos.md",
+    "curso webmoderno/doc/Objetos/String/String.replace(simbolo, simbolo).md",
+    "curso webmoderno/doc/organizar depois/01/doc.md",
+    "curso webmoderno/doc/Objetos/String/String.toUpperCase.md",
+    "curso webmoderno/doc/Objetos/String/String.indexOf(caracter).md",
+    "curso webmoderno/doc/Objetos/String/String.toString.md",
+    "curso webmoderno/doc/Objetos/String/String.toFixed().md",
+    "curso webmoderno/doc/Objetos/String/String.substring(quantidade).md",
+    "curso webmoderno/doc/Objetos/String/String.split(simbolo).md",
+    "curso webmoderno/doc/Objetos/String/String.split(p).md",
+    "curso webmoderno/doc/Objetos/String/String.concat(parametro).md",
+    "curso webmoderno/doc/Objetos/Math/casasDecimais.md",
+    "curso webmoderno/doc/Objetos/String/String.charAt(indice).md",
+    "curso webmoderno/doc/Objetos/Array/Array.pop().md",
+    "curso webmoderno/doc/Objetos/String/String.charCodeAt(indice).md",
+    "curso webmoderno/doc/Objetos/Math/Math.ceil(parametro).md",
+    "curso webmoderno/doc/Objetos/Array/Array.map(p).md",
+    "curso webmoderno/doc/organizar depois/02",
+    "curso webmoderno/doc/organizar depois/01",
+    "curso webmoderno/doc/Objetos/String",
+    "curso webmoderno/doc/Objetos/Math",
+    "curso webmoderno/doc/Objetos/Array",
+    "curso webmoderno/doc/funcoes/numero-aleatorio.js",
+    "curso webmoderno/doc/funcoes/funcoes-globais",
+    "curso webmoderno/doc/organizar depois",
+    "curso webmoderno/doc/Objetos",
+    "curso webmoderno/doc/funcoes",
     "rascunhos/Sem título.canvas",
     "Sem título.canvas",
-    "JavaScript/-Node.js/geral.md",
-    "JavaScript/-Node.js/package.json.md",
-    "JavaScript/-Node.js/npm.md",
-    "JavaScript/-Node.js/nodemon.md",
-    "JavaScript/-Node.js/frameworks.md",
-    "Notas soltas",
-    "img/code-runner-clear-previous-output.png",
-    "JavaScript/Objetos Globais/Array",
-    "JavaScript/Objetos Globais/String",
-    "JavaScript/Objetos Globais/Number",
-    "JavaScript/Objetos Globais",
-    "certificados/certificado_EN.pdf"
+    "img/code-runner-clear-previous-output.png"
   ]
 }

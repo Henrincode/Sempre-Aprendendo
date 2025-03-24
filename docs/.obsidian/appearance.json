@@ -2,5 +2,7 @@
   "theme": "obsidian",
   "showViewHeader": true,
   "showRibbon": true,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "cssTheme": "",
+  "accentColor": ""
 }
