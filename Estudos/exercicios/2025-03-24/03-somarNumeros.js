@@ -8,7 +8,9 @@
 
 // Criando array
 const numeros = [1, 2, 3, 4, 5];
+
 // Tratando os dados com o metodo .reduce()
 const somarNumeros = numeros.reduce((soma, numero) => soma + numero, 0);
+
 // Imprimindo no console.
 console.log(somarNumeros);

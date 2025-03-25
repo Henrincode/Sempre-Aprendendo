@@ -8,7 +8,9 @@
 
 // Criando array
 const numeros = [1, 2, 3, 4, 5, 6];
+
 // Tratando os dados com o metodo .filter()
 const numerosPares = numeros.filter((n) => n % 2 === 0);
+
 // Imprimindo os dados no console
 console.log(numerosPares);
