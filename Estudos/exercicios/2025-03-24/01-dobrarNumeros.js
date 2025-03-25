@@ -8,7 +8,9 @@
 
 // Criando array
 const numeros = [1, 2, 3, 4, 5];
+
 // Tratando os dados com o metodo .map()
 const dobrarNumeros = numeros.map((n) => n * 2);
+
 // Imprimindo os dados no console
 console.log(dobrarNumeros);

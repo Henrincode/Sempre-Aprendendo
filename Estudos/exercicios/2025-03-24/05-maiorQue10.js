@@ -8,7 +8,9 @@
 
 // Criando array
 const numeros = [5, 12, 8, 20, 30, 4];
+
 // Tratando os dados com o metodo .filter() e propriedade .length
 const maiorQue10 = numeros.filter((n) => n > 10).length;
+
 // Imprimindo no console
 console.log(maiorQue10);

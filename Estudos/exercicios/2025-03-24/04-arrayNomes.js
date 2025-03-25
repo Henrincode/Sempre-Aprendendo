@@ -18,7 +18,9 @@ const pessoas = [
   { nome: "Guilherme", idade: 30 },
   { nome: "Carlos", idade: 35 },
 ];
+
 // Tratando os dados com o metodo .map()
 const arrayNomes = pessoas.map((pessoa) => pessoa.nome);
+
 // Imprimindo no console
 console.log(arrayNomes);
