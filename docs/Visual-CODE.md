@@ -1,0 +1,1 @@
+resumir atalhos e plugins do programa
