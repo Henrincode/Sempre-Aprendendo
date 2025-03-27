@@ -13,36 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rascunhos/short-circuit.md",
+                "file": "Visual-CODE.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "short-circuit"
+              "title": "Visual-CODE"
             }
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "a3339c7fae3c38fb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fa9a990e992de447",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rascunhos/readme raiz.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "readme raiz"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -162,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rascunhos/short-circuit.md",
+                "file": "Visual-CODE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de short-circuit"
+              "title": "Sumário de Visual-CODE"
             }
           }
         ],
@@ -176,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 347.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,6 +171,7 @@
   },
   "active": "af3bca59fd7b8969",
   "lastOpenFiles": [
+    "rascunhos/short-circuit.md",
     "rascunhos/readme raiz.md",
     "curso webmoderno/doc/organizar depois/01/Math.md",
     "curso webmoderno/doc/organizar depois/01/typeof.md",
@@ -215,7 +197,6 @@
     "curso webmoderno/doc/Objetos/Array/Array.pop().md",
     "curso webmoderno/doc/Objetos/String/String.charCodeAt(indice).md",
     "curso webmoderno/doc/Objetos/Math/Math.ceil(parametro).md",
-    "curso webmoderno/doc/Objetos/Array/Array.map(p).md",
     "curso webmoderno/doc/organizar depois/02",
     "curso webmoderno/doc/organizar depois/01",
     "curso webmoderno/doc/Objetos/String",
