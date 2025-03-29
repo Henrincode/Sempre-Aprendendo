@@ -3,7 +3,7 @@
 
 // const usuarios = [
 //   { nome: "Alice", ativo: true },
-//   { nome: "Bruno", ativo: false },
+//   { nome: "Guilherme", ativo: false },
 //   { nome: "Carlos", ativo: true },
 //   { nome: "Daniela", ativo: false },
 // ];
@@ -12,11 +12,11 @@
 
 const usuarios = [
   { nome: "Alice", ativo: true },
-  { nome: "Bruno", ativo: false },
+  { nome: "Guilherme", ativo: false },
   { nome: "Carlos", ativo: true },
   { nome: "Daniela", ativo: false },
 ];
 
-const usuariosAtivos = usuarios.filter(u => u.ativo === true);
+const usuariosAtivos = usuarios.filter(u => u.ativo);
 
 console.log(usuariosAtivos);
