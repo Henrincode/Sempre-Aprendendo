@@ -15,6 +15,6 @@ const produtos = [
   { nome: "Mouse", preco: 150 },
 ];
 
-const somarPrecos = produtos.reduce((soma, produto) => soma + produto.preco, 0);
+const somarPrecos = produtos.reduce((soma, { preco }) => soma + preco, 0);
 
 console.log(somarPrecos);
