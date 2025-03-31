@@ -67,6 +67,7 @@
 [**Clique aqui para ver mais detalhes**](tipos-de-dados-primitivos.md)
 
 ---
+
 ## 4 Estruturas de Dados
 
 - `Array` → Lista ordenada de elementos (`[1, 2, 3]`)
