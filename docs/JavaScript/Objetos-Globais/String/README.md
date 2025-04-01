@@ -3,173 +3,175 @@
 ### Construtor
 
 #### String() constructor
-
 Cria um novo objeto `String`.
 
 ---
 
 ### Métodos Estáticos
 
-#### String.fromCharCode()
+#### .fromCharCode()
+Retorna uma string criada a partir de uma sequência de valores de código de caracteres (Unicode).
 
-Retorna uma string criada a partir dos valores Unicode especificados.
+#### .fromCodePoint()
+Retorna uma string criada a partir de uma sequência de pontos de código Unicode.
 
-#### String.fromCodePoint()
-
-Retorna uma string criada a partir dos pontos de código Unicode especificados.
-
-#### String.raw()
-
-Cria uma string a partir de um modelo, ignorando sequências de escape.
+#### .raw()
+Retorna uma string bruta a partir de um objeto de modelo de string (template literal), sem processar os caracteres de escape.
 
 ---
 
 ### Métodos de Instância
 
-#### String.prototype.at()
+#### .anchor() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<a>` com o atributo `name`.
 
-Retorna o caractere na posição especificada.
+#### .at()
+Retorna o caractere em um índice especificado (suporta índices negativos).
 
-#### String.prototype.charAt()
+#### .big() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<big>`.
 
-Retorna o caractere na posição especificada.
+#### .blink() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<blink>`.
 
-#### String.prototype.charCodeAt()
+#### .bold() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<b>`.
 
-Retorna o valor Unicode do caractere na posição especificada.
+#### .charAt()
+Retorna o caractere em um índice especificado.
 
-#### String.prototype.codePointAt()
+#### .charCodeAt()
+Retorna o valor numérico Unicode do caractere em um índice especificado.
 
-Retorna o ponto de código Unicode na posição especificada.
+#### .codePointAt()
+Retorna o ponto de código Unicode do caractere em um índice especificado.
 
-#### String.prototype.concat()
+#### .concat()
+Combina a string atual com uma ou mais strings, retornando uma nova string.
 
-Concatena duas ou mais strings e retorna uma nova string.
+#### .endsWith()
+Verifica se a string termina com uma substring especificada.
 
-#### String.prototype.endsWith()
+#### .fixed() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<tt>`.
 
-Verifica se a string termina com a sequência especificada.
+#### .fontcolor() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<font>` com um atributo `color`.
 
-#### String.prototype.includes()
+#### .fontsize() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<font>` com um atributo `size`.
 
-Verifica se a string contém a sequência especificada.
+#### .includes()
+Verifica se a string contém uma substring especificada.
 
-#### String.prototype.indexOf()
+#### .indexOf()
+Retorna o índice da primeira ocorrência de uma substring especificada, ou -1 se não encontrada.
 
-Retorna o índice da primeira ocorrência da substring especificada.
+#### .isWellFormed()
+Verifica se a string é bem formada (sem pontos de código Unicode inválidos).
 
-#### String.prototype.isWellFormed()
+#### .italics() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<i>`.
 
-Verifica se a string está bem formada segundo a codificação UTF-16.
+#### .lastIndexOf()
+Retorna o índice da última ocorrência de uma substring especificada, ou -1 se não encontrada.
 
-#### String.prototype.lastIndexOf()
+#### .link() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<a>` com um atributo `href`.
 
-Retorna o índice da última ocorrência da substring especificada.
+#### .localeCompare()
+Compara duas strings de acordo com a ordem de classificação da localidade atual.
 
-#### String.prototype.localeCompare()
+#### .match()
+Retorna um array com os resultados da correspondência de uma expressão regular na string.
 
-Compara duas strings de acordo com a localidade definida.
+#### .matchAll()
+Retorna um iterador com todas as correspondências de uma expressão regular na string.
 
-#### String.prototype.match()
+#### .normalize()
+Retorna a forma normalizada Unicode da string.
 
-Retorna as correspondências encontradas usando uma expressão regular.
+#### .padEnd()
+Preenche o final da string com um caractere especificado até atingir um comprimento desejado.
 
-#### String.prototype.matchAll()
+#### .padStart()
+Preenche o início da string com um caractere especificado até atingir um comprimento desejado.
 
-Retorna todas as correspondências encontradas usando uma expressão regular.
+#### .repeat()
+Retorna uma nova string com a string original repetida um número especificado de vezes.
 
-#### String.prototype.normalize()
+#### .replace()
+Substitui a primeira ocorrência de uma substring ou padrão por um novo valor.
 
-Normaliza a string para um formato Unicode especificado.
+#### .replaceAll()
+Substitui todas as ocorrências de uma substring ou padrão por um novo valor.
 
-#### String.prototype.padEnd()
+#### .search()
+Retorna o índice da primeira correspondência de uma expressão regular na string, ou -1 se não encontrada.
 
-Preenche a string no final com um determinado caractere até atingir o comprimento especificado.
+#### .slice()
+Retorna uma substring da string com base em índices de início e fim.
 
-#### String.prototype.padStart()
+#### .small() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<small>`.
 
-Preenche a string no início com um determinado caractere até atingir o comprimento especificado.
+#### .split()
+Divide a string em um array de substrings com base em um separador especificado.
 
-#### String.prototype.repeat()
+#### .startsWith()
+Verifica se a string começa com uma substring especificada.
 
-Repete a string um número especificado de vezes.
+#### .strike() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<strike>`.
 
-#### String.prototype.replace()
+#### .sub() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<sub>`.
 
-Substitui uma parte da string por outra.
+#### .substr() *(Obsoleto)*
+Retorna uma substring da string com base em um índice inicial e comprimento.
 
-#### String.prototype.replaceAll()
+#### .substring()
+Retorna uma substring da string com base em índices de início e fim.
 
-Substitui todas as ocorrências de uma substring por outra.
+#### .sup() *(Obsoleto)*
+Retorna uma string encapsulada em uma tag HTML `<sup>`.
 
-#### String.prototype.search()
+#### .toLocaleLowerCase()
+Converte a string para letras minúsculas de acordo com a localidade atual.
 
-Pesquisa por uma correspondência usando uma expressão regular e retorna o índice da primeira ocorrência.
+#### .toLocaleUpperCase()
+Converte a string para letras maiúsculas de acordo com a localidade atual.
 
-#### String.prototype.slice()
-
-Extrai parte de uma string e retorna uma nova string.
-
-#### String.prototype.split()
-
-Divide a string em um array de substrings.
-
-#### String.prototype.startsWith()
-
-Verifica se a string começa com a sequência especificada.
-
-#### String.prototype.substring()
-
-Retorna parte da string entre os índices especificados.
-
-#### String.prototype.toLocaleLowerCase()
-
-Converte a string para letras minúsculas de acordo com a localidade.
-
-#### String.prototype.toLocaleUpperCase()
-
-Converte a string para letras maiúsculas de acordo com a localidade.
-
-#### String.prototype.toLowerCase()
-
+#### .toLowerCase()
 Converte a string para letras minúsculas.
 
-#### String.prototype.toString()
+#### .toString()
+Retorna uma string representando o objeto.
 
-Retorna a própria string.
-
-#### String.prototype.toUpperCase()
-
+#### .toUpperCase()
 Converte a string para letras maiúsculas.
 
-#### String.prototype.toWellFormed()
+#### .toWellFormed()
+Retorna uma versão bem formada da string, substituindo pontos de código inválidos por �.
 
-Retorna uma versão bem formada da string em UTF-16.
+#### .trim()
+Remove espaços em branco do início e do fim da string.
 
-#### String.prototype.trim()
+#### .trimEnd()
+Remove espaços em branco do final da string.
 
-Remove espaços em branco no início e no final da string.
+#### .trimStart()
+Remove espaços em branco do início da string.
 
-#### String.prototype.trimEnd()
-
-Remove espaços em branco apenas no final da string.
-
-#### String.prototype.trimStart()
-
-Remove espaços em branco apenas no início da string.
-
-#### String.prototype.valueOf()
-
+#### .valueOf()
 Retorna o valor primitivo da string.
 
-#### String.prototype[\@\@iterator]
-
-Permite a iteração sobre os caracteres da string.
+#### .\[@@iterator]()
+Retorna um iterador dos caracteres da string.
 
 ---
 
 ### Propriedades de Instância
 
-#### String.length
-
-Retorna o número de caracteres da string.
+#### .length
+Retorna o comprimento da string (número de caracteres).
