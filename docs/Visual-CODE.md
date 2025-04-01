@@ -1,5 +1,7 @@
 resumir atalhos e plug-ins do programa
 
+comandos e atalhos
+
 ## Extensões
 
 Nesta página, você encontrará uma lista de extensões úteis para o VS Code, organizadas para facilitar a escolha das ferramentas que melhor atendem às suas necessidades. As extensões abordam desde produtividade e organização visual até suporte para linguagens e frameworks específicos.
