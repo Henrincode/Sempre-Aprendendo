@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "JavaScript/Objetos-Globais/Number/README.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
@@ -50,6 +50,7 @@
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -197,11 +198,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0c9f02ab03191626",
+  "active": "fc5b3eb5fda600ac",
   "lastOpenFiles": [
-    "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/Objetos-Globais/Number/README.md",
     "JavaScript/Objetos-Globais/Array/README.md",
+    "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/README.md",
     "JavaScript/tipos-de-dados-primitivos.md",
     "JavaScript/tipos-de-estruturas-de-dados.md",

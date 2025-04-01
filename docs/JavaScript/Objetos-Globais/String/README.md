@@ -8,14 +8,6 @@ Cria um novo objeto `String`.
 
 ---
 
-### Propriedades de Instância
-
-#### String.length
-
-Retorna o número de caracteres da string.
-
----
-
 ### Métodos Estáticos
 
 #### String.fromCharCode()
@@ -173,3 +165,11 @@ Retorna o valor primitivo da string.
 #### String.prototype[\@\@iterator]
 
 Permite a iteração sobre os caracteres da string.
+
+---
+
+### Propriedades de Instância
+
+#### String.length
+
+Retorna o número de caracteres da string.
