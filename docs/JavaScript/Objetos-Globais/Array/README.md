@@ -146,7 +146,7 @@ Retorna um iterador com os valores do array.
 #### .with()
 Retorna um novo array com um elemento substituído em um índice especificado.
 
-#### [@@iterator]()
+#### [\@\@iterator]
 Retorna um iterador para os valores do array.
 
 ---
@@ -156,5 +156,5 @@ Retorna um iterador para os valores do array.
 #### .length
 Retorna ou define o número de elementos no array.
 
-#### [@@unscopables]
+#### [\@\@unscopables]
 Define quais propriedades não devem ser expostas em um bloco `with`.
