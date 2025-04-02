@@ -1,7 +1,10 @@
 # Operadores em JavaScript
 
 Os operadores em JavaScript são usados para realizar operações em variáveis e valores. Eles podem ser classificados em diversas categorias, como operadores de atribuição, comparação, lógicos, bit a bit e outros.
-## Operadores Aritméticos
+
+---
+
+### Operadores Aritméticos
 
 - `+` → Adiciona dois valores.
 
@@ -33,7 +36,9 @@ let divisao = 16 / 4; // divisao agora é 4
 let modulo = 10 % 3; // modulo agora é 1 (10 dividido por 3 tem resto 1)
 ```  
 
-## Operadores de Atribuição
+---
+
+### Operadores de Atribuição
 
 Os operadores de atribuição são utilizados para armazenar valores em variáveis.
 
@@ -85,7 +90,9 @@ let d = 2;
 d **= 3; // d agora é 8 (equivalente a d = d ** 3)
 ```
 
-## Operadores de Comparação
+---
+
+### Operadores de Comparação
 
 Esses operadores são usados para comparar dois valores.
 
@@ -141,7 +148,9 @@ console.log(10 >= 10); // true
 console.log(5 <= 10); // true
 ```
 
-## Operadores Lógicos
+---
+
+### Operadores Lógicos
 
 Usados para combinar expressões booleanas.
 
@@ -163,7 +172,9 @@ console.log(true || false); // true
 console.log(!true); // false
 ```
 
-## Operadores Bit a Bit (Bitwise)
+---
+
+### Operadores Bit a Bit (Bitwise)
 
 Esses operadores trabalham diretamente com bits.
 
@@ -203,7 +214,9 @@ console.log(5 << 1); // 10 (binário: 0101 << 1 = 1010)
 console.log(5 >> 1); // 2 (binário: 0101 >> 1 = 0010)
 ```
 
-## Outros Operadores
+---
+
+### Outros Operadores
 
 - `typeof` → Retorna o tipo de dado da variável.
 
@@ -220,13 +233,15 @@ let dog = new Animal();
 console.log(dog instanceof Animal); // true
 ```
 
-### **Operador Spread (`...`)**
+---
+
+### *Operador Spread (`...`)*
 
 O operador **spread** (`...`) é utilizado para espalhar os valores de um **array** ou **objeto** em outro. Ele pode ser usado para copiar, combinar ou expandir elementos em arrays e objetos de maneira eficiente e legível.
 
-#### **Uso com Arrays**
+#### *Uso com Arrays*
 
-- **Copiar um array:**
+- Copiar um array:
 
 ```javascript
 const numeros = [1, 2, 3];
@@ -234,7 +249,7 @@ const copiaNumeros = [...numeros];
 console.log(copiaNumeros); // [1, 2, 3]
 ```
 
-- **Concatenar arrays:**
+- Concatenar arrays:
 
 ```javascript
 const array1 = [1, 2];
@@ -243,7 +258,7 @@ const combinado = [...array1, ...array2];
 console.log(combinado); // [1, 2, 3, 4]
 ```
 
-- **Adicionar elementos no início ou fim de um array:**
+- Adicionar elementos no início ou fim de um array:
 
 ```javascript
 const array = [2, 3];
@@ -251,9 +266,9 @@ const novoArray = [1, ...array, 4];
 console.log(novoArray); // [1, 2, 3, 4]
 ```
 
-#### **Uso com Objetos**
+#### Uso com Objetos*
 
-- **Copiar um objeto:**
+- Copiar um objeto:
 
 ```javascript
 const pessoa = { nome: "João", idade: 30 };
@@ -261,7 +276,7 @@ const copiaPessoa = { ...pessoa };
 console.log(copiaPessoa); // { nome: "João", idade: 30 }
 ```
 
-- **Combinar objetos:**
+- Combinar objetos:
 
 ```javascript
 const pessoa = { nome: "João", idade: 30 };
@@ -271,7 +286,7 @@ console.log(pessoaCompleta);
 // { nome: "João", idade: 30, cidade: "São Paulo", estado: "SP" }
 ```
 
-- **Modificar propriedades de um objeto:**
+- Modificar propriedades de um objeto:
 
 ```javascript
 const pessoa = { nome: "João", idade: 30 };
@@ -280,7 +295,7 @@ console.log(pessoaAtualizada);
 // { nome: "João", idade: 31, cidade: "Rio de Janeiro" }
 ```
 
-#### **Uso em Funções**
+#### Uso em Funções
 
 - **Passando elementos de um array como parâmetros para uma função:**
 
@@ -293,9 +308,9 @@ const numeros = [1, 2, 3];
 console.log(soma(...numeros)); // 6
 ```
 
-#### **Uso com Funções Rest e Spread**
+#### Uso com Funções Rest e Spread
 
-- **Combinando parâmetros em funções:**
+- Combinando parâmetros em funções:
 
 ```javascript
 function saudacao(sauda, ...nomes) {
@@ -305,6 +320,7 @@ function saudacao(sauda, ...nomes) {
 saudacao("Olá", "João", "Maria", "Pedro");
 // Saída: Olá João, Maria, Pedro
 ```
+
 ### Conclusão
 
 O operador **spread** (`...`) é uma ferramenta poderosa em JavaScript, permitindo operações concisas e eficientes ao trabalhar com **arrays** e **objetos**. Ele facilita tarefas como cópias de dados, combinação de arrays e objetos, manipulação de parâmetros em funções, e integrações com bibliotecas/frameworks como o **React**.
