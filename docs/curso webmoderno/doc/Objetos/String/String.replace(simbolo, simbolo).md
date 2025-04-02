@@ -1,1 +1,0 @@
-troca o simbolo A pelo simbolo B

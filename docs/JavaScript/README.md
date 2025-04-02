@@ -1,6 +1,6 @@
 # 📌 Hierarquia Completa do JavaScript
 
-[Entenda comentário, sentença de código e bloco de código](comentario-sentenca-bloco.md)
+[Entenda comentário, sentença de código e bloco de código](fundamentos/comentario-sentenca-bloco.md)
 
 ---
 ## 1 Declaração de Variáveis
@@ -9,7 +9,7 @@
 - `let` → Escopo de bloco, pode ser reatribuída
 - `const` → Escopo de bloco, não pode ser reatribuída
 
-[**Clique aqui para ver mais detalhes!**](variavel.md)
+[**Clique aqui para ver mais detalhes!**](fundamentos/variavel.md)
 
 ---
 ## 2 Operadores
@@ -51,7 +51,7 @@
 - `typeof` → Retorna o tipo da variável
 - `instanceof` → Verifica se um objeto é instância de uma classe
 
-[**Clique aqui para ver mais detalhes**](operadores.md)
+[**Clique aqui para ver mais detalhes**](fundamentos/operadores.md)
 
 ---
 ## 3 Tipos de Dados
@@ -64,7 +64,7 @@
 - `symbol` → Identificador único
 - `bigint` → Números inteiros grandes (`9007199254740991n`)
 
-[**Clique aqui para ver mais detalhes**](tipos-de-dados-primitivos.md)
+[**Clique aqui para ver mais detalhes**](fundamentos/tipos-de-dados-primitivos.md)
 
 ---
 
@@ -77,7 +77,7 @@
 - `Map` → Estrutura chave-valor otimizada
 - `WeakSet` e `WeakMap` → Versões fracas de `Set` e `Map` para otimização de memória
 
-[**Clique aqui para ver mais detalhes**](tipos-de-estruturas-de-dados.md)
+[**Clique aqui para ver mais detalhes**](fundamentos/tipos-de-estruturas-de-dados.md)
 
 ---
 ## 5 Estruturas Condicionais
@@ -88,7 +88,7 @@
 - `switch` → Alternativa ao `if/else`, mais otimizado para múltiplas opções
 - **Operador ternário** → `condição ? verdadeiro : falso`
 
-[**Clique aqui para ver mais detalhes**](condicional.md)
+[**Clique aqui para ver mais detalhes**](fundamentos/condicional.md)
 
 ---
 ## 6 Laços de Repetição
@@ -104,7 +104,7 @@
 - `while` → Executa enquanto a condição for verdadeira
 - `do while` → Executa pelo menos uma vez antes de verificar a condição
 
-[**Clique aqui para ver mais detalhes**](lacos-repeticao.md)
+[**Clique aqui para ver mais detalhes**](fundamentos/lacos-repeticao.md)
 
 ---
 

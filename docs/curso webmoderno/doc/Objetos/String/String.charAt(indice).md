@@ -1,1 +1,0 @@
-imprime o caracter do indice

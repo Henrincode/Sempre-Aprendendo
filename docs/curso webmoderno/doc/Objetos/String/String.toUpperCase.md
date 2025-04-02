@@ -1,1 +1,0 @@
-Deixa o texto em caixa alta
