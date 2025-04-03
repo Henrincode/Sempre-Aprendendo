@@ -1,5 +1,7 @@
 resumir atalhos e plug-ins do programa
 
+arquivo de backup
+
 comandos e atalhos
 
 ## Extensões
