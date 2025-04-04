@@ -1,6 +1,7 @@
 resumir atalhos e plug-ins do programa
 
 arquivo de backup
+config personalizada 
 
 comandos e atalhos
 
