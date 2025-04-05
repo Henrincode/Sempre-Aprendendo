@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/fundamentos/comentario-sentenca-bloco.md",
+                "file": "JavaScript/Objetos-Globais/String/README.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "comentario-sentenca-bloco"
+              "title": "README"
             }
           }
         ],
@@ -171,8 +171,9 @@
   },
   "active": "c7c7feec82ccd14c",
   "lastOpenFiles": [
-    "JavaScript/fundamentos/operadores.md",
     "JavaScript/README.md",
+    "JavaScript/fundamentos/comentario-sentenca-bloco.md",
+    "JavaScript/fundamentos/operadores.md",
     "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
     "rascunhos/curso webmoderno/doc/organizar depois/TiposPrimitivosEObjetos.md",
     "rascunhos/curso webmoderno/doc/organizar depois/criar arrow-function.md",
@@ -196,7 +197,6 @@
     "JavaScript/fundamentos/tipos-de-dados-primitivos.md",
     "JavaScript/fundamentos/variavel.md",
     "JavaScript/fundamentos/lacos-repeticao.md",
-    "JavaScript/fundamentos/condicional.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "certificados/certificado_ES.pdf",
