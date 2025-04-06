@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rascunhos/short-circuit.md",
+                "file": "JavaScript/Objetos-Globais/Array/README.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "short-circuit"
+              "title": "README"
             }
           }
         ],
@@ -171,8 +171,9 @@
   },
   "active": "c7c7feec82ccd14c",
   "lastOpenFiles": [
-    "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/Objetos-Globais/String/README.md",
+    "rascunhos/short-circuit.md",
+    "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/README.md",
     "JavaScript/fundamentos/comentario-sentenca-bloco.md",
     "JavaScript/fundamentos/operadores.md",
@@ -196,7 +197,6 @@
     "rascunhos/curso webmoderno/README.md",
     "JavaScript/fundamentos/tipos-de-estruturas-de-dados.md",
     "JavaScript/fundamentos/tipos-de-dados-primitivos.md",
-    "JavaScript/fundamentos/variavel.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "certificados/certificado_ES.pdf",
