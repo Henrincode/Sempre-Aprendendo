@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Objetos-Globais/String/README.md",
+                "file": "rascunhos/short-circuit.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "short-circuit"
             }
           }
         ],
@@ -171,6 +171,8 @@
   },
   "active": "c7c7feec82ccd14c",
   "lastOpenFiles": [
+    "JavaScript/Objetos-Globais/Array/README.md",
+    "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/README.md",
     "JavaScript/fundamentos/comentario-sentenca-bloco.md",
     "JavaScript/fundamentos/operadores.md",
@@ -192,11 +194,9 @@
     "rascunhos/curso webmoderno/doc/Objetos/Math/casasDecimais.md",
     "rascunhos/curso webmoderno/doc/Objetos/Array/Array.filter().md",
     "rascunhos/curso webmoderno/README.md",
-    "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/fundamentos/tipos-de-estruturas-de-dados.md",
     "JavaScript/fundamentos/tipos-de-dados-primitivos.md",
     "JavaScript/fundamentos/variavel.md",
-    "JavaScript/fundamentos/lacos-repeticao.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "certificados/certificado_ES.pdf",
