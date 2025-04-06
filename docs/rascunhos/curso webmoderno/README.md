@@ -38,7 +38,8 @@ Ignora rodar só o código selecionado, assim ele roda o código todo da página
 ```ctrl + alt + ↓``` "seleciona vários elementos"<br/>
 ```alt + click``` "seleciona várias áreas do código e edita ao mesmo tempo"<br/>
 ```alt + ↓``` "move a linha toda"<br/>
-```ctrl + X``` "apaga uma linha"
+```ctrl + X``` "apaga uma linha"<br/>
+```F2``` em uma variável ou função "renomeia todos com o mesmo nome"
 
 ## Terminal
 
