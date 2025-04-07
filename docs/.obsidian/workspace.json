@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rascunhos/curso webmoderno/README.md",
+                "file": "JavaScript/Objetos-Globais/Array/README.md",
                 "mode": "preview",
                 "source": true
               },
@@ -171,13 +171,14 @@
   },
   "active": "c7c7feec82ccd14c",
   "lastOpenFiles": [
+    "JavaScript/Objetos-Globais/String/README.md",
+    "JavaScript/Objetos-Globais/Array/README.md",
+    "rascunhos/curso webmoderno/README.md",
     "JavaScript/README.md",
     "JavaScript/Objetos-Globais/Number/README.md",
     "rascunhos/JS prototypes.md",
     "rascunhos/Visual-CODE.md",
     "rascunhos/readme raiz.md",
-    "JavaScript/Objetos-Globais/Array/README.md",
-    "JavaScript/Objetos-Globais/String/README.md",
     "rascunhos/short-circuit.md",
     "JavaScript/fundamentos/comentario-sentenca-bloco.md",
     "JavaScript/fundamentos/operadores.md",
@@ -196,7 +197,6 @@
     "rascunhos/curso webmoderno/doc/organizar depois/var-let-const.md",
     "rascunhos/curso webmoderno/doc/organizar depois/Number.md",
     "rascunhos/curso webmoderno/doc/Objetos/Math/Math.ceil(parametro).md",
-    "rascunhos/curso webmoderno/doc/Objetos/Math/casasDecimais.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "certificados/certificado_ES.pdf",
