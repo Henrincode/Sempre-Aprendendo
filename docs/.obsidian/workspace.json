@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/-Node.js/package.json.md",
+                "file": "JavaScript/-Node.js/bibliotecas/REDME.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "package.json"
+              "title": "REDME"
             }
           }
         ],
@@ -171,12 +171,13 @@
   },
   "active": "aa49bba3660f39aa",
   "lastOpenFiles": [
+    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
+    "JavaScript/-Node.js/require.md",
+    "JavaScript/-Node.js/package.json.md",
     "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
     "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/nodemon.md",
-    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
-    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
     "JavaScript/-Node.js/bibliotecas/externas/Não confirmado 382696.crdownload",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
     "JavaScript/-Node.js/bibliotecas/Sem título.canvas",
@@ -187,10 +188,8 @@
     "JavaScript/Funcoes-Globais/README.md",
     "rascunhos/Sem título 1.md",
     "JavaScript/-Node.js/module.exports.md",
-    "rascunhos/require.md",
     "JavaScript/Funcoes-Globais",
     "JavaScript/-Node.js/geral.md",
-    "JavaScript/-Node.js/package.json.md",
     "JavaScript/-Node.js/frameworks.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/Objetos-Globais/String/README.md",
