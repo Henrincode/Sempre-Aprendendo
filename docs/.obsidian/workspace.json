@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "27b52150a1bcd661",
+        "id": "e6a1fa773d2d147a",
         "type": "tabs",
         "children": [
           {
-            "id": "c7c7feec82ccd14c",
+            "id": "aa49bba3660f39aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Objetos-Globais/Array/README.md",
+                "file": "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "nodemon"
             }
           }
         ],
@@ -169,12 +169,29 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c7c7feec82ccd14c",
+  "active": "aa49bba3660f39aa",
   "lastOpenFiles": [
-    "JavaScript/Objetos-Globais/String/README.md",
-    "JavaScript/Objetos-Globais/Array/README.md",
-    "rascunhos/curso webmoderno/README.md",
+    "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
+    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
+    "JavaScript/-Node.js/bibliotecas/externas/axios.md",
+    "JavaScript/-Node.js/bibliotecas/REDME.md",
+    "JavaScript/-Node.js/bibliotecas/Sem título.canvas",
+    "JavaScript/-Node.js/bibliotecas/externas",
+    "JavaScript/-Node.js/bibliotecas.md",
+    "JavaScript/-Node.js/bibliotecas/internas",
     "JavaScript/README.md",
+    "JavaScript/Funcoes-Globais/README.md",
+    "rascunhos/Sem título 1.md",
+    "JavaScript/-Node.js/module.exports.md",
+    "rascunhos/require.md",
+    "JavaScript/Funcoes-Globais",
+    "JavaScript/-Node.js/npm.md",
+    "JavaScript/-Node.js/geral.md",
+    "JavaScript/-Node.js/package.json.md",
+    "JavaScript/-Node.js/frameworks.md",
+    "JavaScript/Objetos-Globais/Array/README.md",
+    "JavaScript/Objetos-Globais/String/README.md",
+    "rascunhos/curso webmoderno/README.md",
     "JavaScript/Objetos-Globais/Number/README.md",
     "rascunhos/JS prototypes.md",
     "rascunhos/Visual-CODE.md",
@@ -184,19 +201,6 @@
     "JavaScript/fundamentos/operadores.md",
     "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
     "rascunhos/curso webmoderno/doc/organizar depois/TiposPrimitivosEObjetos.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/criar arrow-function.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/typeof.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/sintaxe-vs-sentenca.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/sintaxe.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/Math.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/Grupos-de-conceitos.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/doc.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/console.log().md",
-    "rascunhos/curso webmoderno/doc/organizar depois/01/comentarios.md",
-    "rascunhos/curso webmoderno/doc/resumao.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/var-let-const.md",
-    "rascunhos/curso webmoderno/doc/organizar depois/Number.md",
-    "rascunhos/curso webmoderno/doc/Objetos/Math/Math.ceil(parametro).md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "certificados/certificado_ES.pdf",
@@ -204,9 +208,6 @@
     "rascunhos/curso webmoderno/doc/organizar depois/02",
     "rascunhos/curso webmoderno/doc/organizar depois/01",
     "rascunhos/curso webmoderno/doc/Objetos/String",
-    "rascunhos/curso webmoderno/doc/Objetos/Math",
-    "rascunhos/curso webmoderno/doc/Objetos/Array",
-    "rascunhos/curso webmoderno/doc/funcoes/numero-aleatorio.js",
     "rascunhos/Sem título.canvas",
     "Sem título.canvas",
     "img/code-runner-clear-previous-output.png"

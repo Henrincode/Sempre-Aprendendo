@@ -96,8 +96,3 @@ Abaixo está a lista completa de comandos do NPM, seus aliases e uma breve descr
 | `npm help` | - | Exibe a documentação oficial do NPM |
 | `npm version` | - | Mostra a versão do NPM instalada |
 | `npm whoami` | - | Exibe o usuário autenticado no NPM |
-
----
-
-## Conclusão
-Esta documentação apresenta os principais comandos do NPM, incluindo seus aliases e descrição. O NPM é uma ferramenta essencial para gerenciamento de dependências em projetos Node.js, e dominar seus comandos é fundamental para qualquer desenvolvedor JavaScript.
