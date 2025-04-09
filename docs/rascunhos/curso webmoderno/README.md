@@ -1,3 +1,5 @@
+# separar o q é do java, do node e do vscode!
+
 # JavaScript, ECMAScript, Node.js e npm
 
 O **JavaScript** é uma linguagem de programação amplamente usada para o desenvolvimento web, trazendo interatividade e dinamismo às páginas. Ele segue o padrão **ECMAScript**, uma especificação que define as funcionalidades e a sintaxe da linguagem, garantindo a compatibilidade e a evolução do JavaScript em diferentes plataformas.
