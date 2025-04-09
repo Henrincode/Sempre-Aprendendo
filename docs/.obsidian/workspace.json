@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/-Node.js/bibliotecas/REDME.md",
-                "mode": "preview",
+                "file": "rascunhos/curso webmoderno/README.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "REDME"
+              "title": "README"
             }
           }
         ],
@@ -171,6 +171,12 @@
   },
   "active": "aa49bba3660f39aa",
   "lastOpenFiles": [
+    "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
+    "rascunhos/curso webmoderno/README.md",
+    "rascunhos/html.md",
+    "certificados/certificado_ES.pdf",
+    "certificados/certificado_EN.pdf",
+    "JavaScript/-Node.js/bibliotecas/REDME.md",
     "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
     "JavaScript/-Node.js/require.md",
     "JavaScript/-Node.js/package.json.md",
@@ -179,7 +185,6 @@
     "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/nodemon.md",
     "JavaScript/-Node.js/bibliotecas/externas/Não confirmado 382696.crdownload",
-    "JavaScript/-Node.js/bibliotecas/REDME.md",
     "JavaScript/-Node.js/bibliotecas/Sem título.canvas",
     "JavaScript/-Node.js/bibliotecas/externas",
     "JavaScript/-Node.js/bibliotecas.md",
@@ -193,20 +198,16 @@
     "JavaScript/-Node.js/frameworks.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/Objetos-Globais/String/README.md",
-    "rascunhos/curso webmoderno/README.md",
     "JavaScript/Objetos-Globais/Number/README.md",
     "rascunhos/JS prototypes.md",
     "rascunhos/Visual-CODE.md",
     "rascunhos/readme raiz.md",
     "rascunhos/short-circuit.md",
     "JavaScript/fundamentos/comentario-sentenca-bloco.md",
-    "JavaScript/fundamentos/operadores.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
-    "certificados/certificado_ES.pdf",
     "JavaScript/Objetos-Globais/Object",
     "rascunhos/curso webmoderno/doc/organizar depois/02",
-    "rascunhos/curso webmoderno/doc/organizar depois/01",
     "rascunhos/Sem título.canvas",
     "Sem título.canvas",
     "img/code-runner-clear-previous-output.png"
