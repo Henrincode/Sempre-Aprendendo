@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rascunhos/curso webmoderno/README.md",
-                "mode": "source",
+                "file": "Git/Rascunho 2.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Rascunho 2"
             }
           }
         ],
@@ -171,8 +171,12 @@
   },
   "active": "aa49bba3660f39aa",
   "lastOpenFiles": [
-    "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
+    "Git/rascunho 1.md",
+    "Git/Rascunho 2.md",
+    "rascunhos/Senac.md",
+    "Git",
     "rascunhos/curso webmoderno/README.md",
+    "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
     "rascunhos/html.md",
     "certificados/certificado_ES.pdf",
     "certificados/certificado_EN.pdf",
@@ -201,13 +205,9 @@
     "JavaScript/Objetos-Globais/Number/README.md",
     "rascunhos/JS prototypes.md",
     "rascunhos/Visual-CODE.md",
-    "rascunhos/readme raiz.md",
-    "rascunhos/short-circuit.md",
-    "JavaScript/fundamentos/comentario-sentenca-bloco.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "JavaScript/Objetos-Globais/Object",
-    "rascunhos/curso webmoderno/doc/organizar depois/02",
     "rascunhos/Sem título.canvas",
     "Sem título.canvas",
     "img/code-runner-clear-previous-output.png"
