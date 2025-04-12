@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3f741381d7f6d19d",
+        "id": "57e003837f22a1a3",
         "type": "tabs",
         "children": [
           {
-            "id": "55b8b614dd39381d",
+            "id": "9a9323ac89d9fce9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git/README.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nova aba"
             }
           }
         ],
@@ -169,16 +165,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "55b8b614dd39381d",
+  "active": "9a9323ac89d9fce9",
   "lastOpenFiles": [
-    "Git/rascunho 1.md",
     "Git/README.md",
-    "Git/Rascunho 2.md",
+    "JavaScript/README.md",
+    "JavaScript/Objetos-Globais/Object/README.md",
+    "rascunhos/rascunho estrutura.md",
+    "rascunhos/html.md",
+    "rascunhos/Visual-CODE.md",
     "rascunhos/Senac.md",
+    "Git/rascunho 1.md",
+    "Git/Rascunho 2.md",
     "Git",
     "rascunhos/curso webmoderno/README.md",
     "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
-    "rascunhos/html.md",
     "certificados/certificado_ES.pdf",
     "certificados/certificado_EN.pdf",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
@@ -194,7 +194,6 @@
     "JavaScript/-Node.js/bibliotecas/externas",
     "JavaScript/-Node.js/bibliotecas.md",
     "JavaScript/-Node.js/bibliotecas/internas",
-    "JavaScript/README.md",
     "JavaScript/Funcoes-Globais/README.md",
     "rascunhos/Sem título 1.md",
     "JavaScript/-Node.js/module.exports.md",
@@ -202,9 +201,6 @@
     "JavaScript/-Node.js/geral.md",
     "JavaScript/-Node.js/frameworks.md",
     "JavaScript/Objetos-Globais/Array/README.md",
-    "JavaScript/Objetos-Globais/String/README.md",
-    "JavaScript/Objetos-Globais/Number/README.md",
-    "rascunhos/JS prototypes.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "JavaScript/Objetos-Globais/Object",
