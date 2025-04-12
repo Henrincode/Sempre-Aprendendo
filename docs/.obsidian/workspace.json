@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e6a1fa773d2d147a",
+        "id": "3f741381d7f6d19d",
         "type": "tabs",
         "children": [
           {
-            "id": "aa49bba3660f39aa",
+            "id": "55b8b614dd39381d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Rascunho 2.md",
-                "mode": "preview",
+                "file": "Git/README.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Rascunho 2"
+              "title": "README"
             }
           }
         ],
@@ -169,9 +169,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "aa49bba3660f39aa",
+  "active": "55b8b614dd39381d",
   "lastOpenFiles": [
     "Git/rascunho 1.md",
+    "Git/README.md",
     "Git/Rascunho 2.md",
     "rascunhos/Senac.md",
     "Git",
@@ -204,7 +205,6 @@
     "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/Objetos-Globais/Number/README.md",
     "rascunhos/JS prototypes.md",
-    "rascunhos/Visual-CODE.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
     "JavaScript/Objetos-Globais/Object",
