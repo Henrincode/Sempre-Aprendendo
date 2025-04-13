@@ -11,10 +11,14 @@
             "id": "9a9323ac89d9fce9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Objetos-Globais/String/README.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "README"
             }
           }
         ],
