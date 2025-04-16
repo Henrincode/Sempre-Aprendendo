@@ -52,10 +52,10 @@ Um mood board ajuda a:
 |**Estático**|Um painel fixo com imagens e cores.|
 |**Interativo**|Inclui vídeos, sons, ou links para uma experiência mais rica.|
 
-![[../../img/Moodboard-01.webp]]
+![image](../../img/Moodboard-01.webp)
 
-![[../../img/Moodboard-02.webp]]
+![image](../../img/Moodboard-02.webp)
 
-![[../../img/Moodboard-03.webp]]
+![image](../../img/Moodboard-03.webp)
 
-![[../../img/Moodboard-04.jpg]]
+![image](../../img/Moodboard-04.jpg)
