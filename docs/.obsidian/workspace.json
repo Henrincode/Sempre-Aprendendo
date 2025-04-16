@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3474fd2f616b6249",
+        "id": "f7c48960b808ec82",
         "type": "tabs",
         "children": [
           {
-            "id": "da7d2e177b0f5850",
+            "id": "225195d490982e89",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,12 +167,13 @@
   },
   "active": "9d34f146e07baef5",
   "lastOpenFiles": [
-    "rascunhos/-cursoSenac/Bot-agente.md",
+    "rascunhos/-cursoSenac/moodBoard.md",
+    "rascunhos/curso webmoderno/README.md",
     "rascunhos/-cursoSenac/Briefing.md",
+    "rascunhos/-cursoSenac/Bot-agente.md",
     "rascunhos/-cursoSenac/Persona.md",
     "rascunhos/[Persona].md",
     "rascunhos/[[Persona]].md",
-    "rascunhos/-cursoSenac/moodBoard.md",
     "img/Moodboard-04.jpg",
     "img/Moodboard-03.webp",
     "img/Moodboard-03.webp.crdownload",
@@ -199,7 +200,6 @@
     "Git/rascunho 1.md",
     "Git/Rascunho 2.md",
     "Git",
-    "rascunhos/curso webmoderno/README.md",
     "rascunhos/curso webmoderno/doc/aspas, chates, etc.md",
     "certificados/certificado_ES.pdf",
     "certificados/certificado_EN.pdf",
