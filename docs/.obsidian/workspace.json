@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "52808d9eef7e500a",
+        "id": "6dcff8518045d445",
         "type": "tabs",
         "children": [
           {
-            "id": "96e1bc7b46850cf7",
+            "id": "085062d66c367012",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "96e1bc7b46850cf7",
+  "active": "085062d66c367012",
   "lastOpenFiles": [
+    "rascunhos/-cursoSenac/Persona.md",
+    "rascunhos/-cursoSenac/Briefing.md",
+    "rascunhos/-cursoSenac/moodBoard.md",
+    "rascunhos/-cursoSenac/Aula-15-04-2025.md",
+    "rascunhos/sala.md",
+    "rascunhos/-cursoSenac",
     "JavaScript/Objetos-Globais/String/README.md",
     "Git/README.md",
     "JavaScript/README.md",
@@ -195,15 +201,9 @@
     "JavaScript/-Node.js/bibliotecas/externas",
     "JavaScript/-Node.js/bibliotecas.md",
     "JavaScript/-Node.js/bibliotecas/internas",
-    "JavaScript/Funcoes-Globais/README.md",
-    "rascunhos/Sem título 1.md",
-    "JavaScript/-Node.js/module.exports.md",
     "JavaScript/Funcoes-Globais",
-    "JavaScript/-Node.js/geral.md",
-    "JavaScript/-Node.js/frameworks.md",
     "JavaScript/fundamentos",
     "certificados/certificado_PT.pdf",
-    "JavaScript/Objetos-Globais/Object",
     "rascunhos/Sem título.canvas",
     "Sem título.canvas",
     "img/code-runner-clear-previous-output.png"
