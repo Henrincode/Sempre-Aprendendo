@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83e3e886134c45df",
+        "id": "dc9458d609d60601",
         "type": "tabs",
         "children": [
           {
-            "id": "eb1a6f78098167fb",
+            "id": "f173f5efc13081f9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9d34f146e07baef5",
+  "active": "f173f5efc13081f9",
   "lastOpenFiles": [
+    "JavaScript/Objetos-Globais/Array/README.md",
     "rascunhos/-cursoSenac/moodBoard.md",
     "rascunhos/curso webmoderno/README.md",
     "rascunhos/-cursoSenac/Briefing.md",
@@ -208,7 +209,6 @@
     "JavaScript/-Node.js/require.md",
     "JavaScript/-Node.js/package.json.md",
     "JavaScript/-Node.js/npm.md",
-    "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
     "JavaScript/-Node.js/bibliotecas/externas/Não confirmado 382696.crdownload",
     "JavaScript/-Node.js/bibliotecas/Sem título.canvas",
     "rascunhos/Sem título.canvas",
