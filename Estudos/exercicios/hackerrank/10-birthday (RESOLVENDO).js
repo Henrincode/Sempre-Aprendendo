@@ -1,21 +1,20 @@
-const birthday = (barra, d, m) => {
-    let count = 0
-    
-    barra.forEach((e, i) => {
-        if(m === 1 && e === d) count++ 
-        if(i + m < barra.length) //if(e + barra[i+(m-1)] === d) count++
-        for(let )
-    })
-    return count
-}
+// Link do desafio: https://www.hackerrank.com/challenges/the-birthday-bar
 
+const birthday = (choc, d, m) => {
+  let count = 0;
 
-console.log(birthday([
-    '3', '5', '4', '1', '2', '5', '3', '4',
-    '3', '2', '1', '1', '2', '4', '2', '3',
-    '4', '5', '3', '1', '2', '5', '4', '5',
-    '4', '1', '1', '5', '3', '1', '4', '5',
-    '2', '3', '2', '5', '2', '5', '2', '2',
-    '1', '5', '3', '2', '5', '1', '2', '4',
-    '3', '1', '5', '1', '3', '3', '5'
-  ], 18, 6))
+  choc.forEach((e, i) => {
+    let interval = i + (m - 1);
+    let sum = 0;
+
+    if (interval < choc.length) {
+      for (let i2 = i; i2 <= interval; i2++) {
+        sum += choc[i2];
+      }
+      if (sum === d) count++;
+    }
+  });
+  return count;
+};
+
+console.log(birthday([1, 1, 3, 1, 1], 3, 1));
