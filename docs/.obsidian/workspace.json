@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dc9458d609d60601",
+        "id": "e27aa3e0d8227e05",
         "type": "tabs",
         "children": [
           {
-            "id": "f173f5efc13081f9",
+            "id": "7eb8ace9137585e2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,13 +165,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "f173f5efc13081f9",
+  "active": "9d34f146e07baef5",
   "lastOpenFiles": [
-    "JavaScript/Objetos-Globais/Array/README.md",
-    "rascunhos/-cursoSenac/moodBoard.md",
-    "rascunhos/curso webmoderno/README.md",
+    "rascunhos/-cursoSenac/persona 1 resposta.md",
+    "rascunhos/-cursoSenac/persona 2 resposta.md",
+    "rascunhos/-cursoSenac/persona 1.md",
+    "rascunhos/-cursoSenac/persona 2.md",
     "rascunhos/-cursoSenac/Briefing.md",
+    "rascunhos/-cursoSenac/moodBoard.md",
     "rascunhos/-cursoSenac/Bot-agente.md",
+    "JavaScript/Objetos-Globais/Array/README.md",
+    "rascunhos/curso webmoderno/README.md",
     "rascunhos/-cursoSenac/Persona.md",
     "rascunhos/[Persona].md",
     "rascunhos/[[Persona]].md",
@@ -205,10 +209,6 @@
     "certificados/certificado_ES.pdf",
     "certificados/certificado_EN.pdf",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
-    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
-    "JavaScript/-Node.js/require.md",
-    "JavaScript/-Node.js/package.json.md",
-    "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/bibliotecas/externas/Não confirmado 382696.crdownload",
     "JavaScript/-Node.js/bibliotecas/Sem título.canvas",
     "rascunhos/Sem título.canvas",
