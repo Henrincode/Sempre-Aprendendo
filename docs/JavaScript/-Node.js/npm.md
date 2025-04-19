@@ -36,7 +36,8 @@ Abaixo está a lista completa de comandos do NPM, seus aliases e uma breve descr
 |-----------------|-------|-------------|
 | `npm install <pacote> --save` | - | Adiciona uma dependência ao `package.json` |
 | `npm install <pacote> --save-dev` | - | Adiciona uma dependência de desenvolvimento |
-| `npm install <pacote> --save-exact` | - | Adiciona um pacote com versão exata |
+| `npm install <pacote> --save-exact` | - | Adiciona um pacote com versão exata 
+|`npm i --save-dev axios\@0.17.1 -E | - | Instala como dev a versão exata do axios |
 
 ### 3. Informações sobre pacotes
 
