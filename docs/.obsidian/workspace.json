@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/-Node.js/Middlewares.md",
+                "file": "JavaScript/-Node.js/bibliotecas/externas/axios.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Middlewares"
+              "title": "axios"
             }
           }
         ],
@@ -171,8 +171,12 @@
   },
   "active": "f64d9d903ee4d8d5",
   "lastOpenFiles": [
-    "JavaScript/-Node.js/frameworks.md",
+    "JavaScript/-Node.js/bibliotecas/externas/express.md",
+    "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
+    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
+    "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/Middlewares.md",
+    "JavaScript/-Node.js/frameworks.md",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
     "rascunhos/short-circuit.md",
     "JavaScript/-Node.js/bibliotecas/internas/fs.md",
@@ -190,13 +194,9 @@
     "rascunhos/-cursoSenac/persona 1.md",
     "rascunhos/-cursoSenac/moodBoard.md",
     "JavaScript/fundamentos/function-factory.md",
-    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
-    "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
-    "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "rascunhos/rascunho estrutura.md",
     "Tarefas.md",
-    "JavaScript/README.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
