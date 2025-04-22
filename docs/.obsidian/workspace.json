@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4d6303051c314d9f",
+        "id": "605d5078d9cc1fa4",
         "type": "tabs",
         "children": [
           {
-            "id": "5d460444fb12faa7",
+            "id": "32d74ac03c1cc054",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Objetos-Globais/process/README.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Nova aba"
             }
           }
         ],
@@ -169,10 +165,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "5d460444fb12faa7",
+  "active": "9d34f146e07baef5",
   "lastOpenFiles": [
-    "JavaScript/Objetos-Globais/Object/README.md",
     "JavaScript/Objetos-Globais/process/README.md",
+    "JavaScript/Objetos-Globais/Object/README.md",
     "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/Objetos-Globais/process",
     "JavaScript/Objetos-Globais/Array/README.md",
