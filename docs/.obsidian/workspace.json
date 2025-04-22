@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/-Node.js/frameworks.md",
+                "file": "JavaScript/-Node.js/Middlewares.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "frameworks"
+              "title": "Middlewares"
             }
           }
         ],
@@ -171,9 +171,10 @@
   },
   "active": "f64d9d903ee4d8d5",
   "lastOpenFiles": [
+    "JavaScript/-Node.js/frameworks.md",
+    "JavaScript/-Node.js/Middlewares.md",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
     "rascunhos/short-circuit.md",
-    "JavaScript/-Node.js/frameworks.md",
     "JavaScript/-Node.js/bibliotecas/internas/fs.md",
     "JavaScript/-Node.js/bibliotecas.md",
     "JavaScript/variaveis-funcoes-objetos-GLOBAL.md",
@@ -196,7 +197,6 @@
     "rascunhos/rascunho estrutura.md",
     "Tarefas.md",
     "JavaScript/README.md",
-    "JavaScript/fundamentos/comentario-sentenca-bloco.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
