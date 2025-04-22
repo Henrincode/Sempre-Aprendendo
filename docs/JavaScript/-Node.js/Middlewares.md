@@ -2,7 +2,7 @@
 
 ## 📌 O que é um Middleware?
 
-No contexto de servidores Node.js (principalmente usando **Express**), um **middleware** é uma **função que intercepta** a requisição (`req`) e a resposta (`res`) antes que o servidor conclua o ciclo de resposta.
+No contexto de servidores Node.js (principalmente usando **Express**), um **middleware** é uma **função que intercepta** a requisição (`req`) e a resposta (`res`) antes que o servidor conclua o ciclo de resposta — funcionando como parte de uma **cadeia de responsabilidade** (_Chain of Responsibility_), onde cada função pode processar, modificar ou delegar o controle para o próximo passo do fluxo com `next()`.
 
 ### 📥 Requisição → 🧠 Middleware(s) → 📤 Resposta
 
