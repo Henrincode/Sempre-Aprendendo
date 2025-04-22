@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a88ee4ee6da58c57",
+        "id": "710ca0dabf840845",
         "type": "tabs",
         "children": [
           {
-            "id": "f64d9d903ee4d8d5",
+            "id": "6e095e122ccda20c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/-Node.js/bibliotecas/externas/axios.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "axios"
+              "title": "Nova aba"
             }
           }
         ],
@@ -169,12 +165,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "f64d9d903ee4d8d5",
+  "active": "9d34f146e07baef5",
   "lastOpenFiles": [
+    "JavaScript/fundamentos/Objetos-Propriedades-Acessoras.md",
+    "JavaScript/-Node.js/bibliotecas/externas/body-parser.md",
+    "JavaScript/-Node.js/npm.md",
+    "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/bibliotecas/externas/express.md",
     "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
     "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
-    "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/Middlewares.md",
     "JavaScript/-Node.js/frameworks.md",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
@@ -184,7 +183,6 @@
     "JavaScript/variaveis-funcoes-objetos-GLOBAL.md",
     "JavaScript/-Node.js/geral.md",
     "JavaScript/-Node.js/module.exports.md",
-    "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/package.json.md",
     "JavaScript/-Node.js/require.md",
     "JavaScript/fundamentos/variavel.md",
@@ -195,8 +193,6 @@
     "rascunhos/-cursoSenac/moodBoard.md",
     "JavaScript/fundamentos/function-factory.md",
     "JavaScript/Objetos-Globais/Array/README.md",
-    "rascunhos/rascunho estrutura.md",
-    "Tarefas.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
