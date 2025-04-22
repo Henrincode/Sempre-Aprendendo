@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "710ca0dabf840845",
+        "id": "4d6303051c314d9f",
         "type": "tabs",
         "children": [
           {
-            "id": "6e095e122ccda20c",
+            "id": "5d460444fb12faa7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -167,9 +167,10 @@
   },
   "active": "9d34f146e07baef5",
   "lastOpenFiles": [
+    "JavaScript/-Node.js/npm.md",
+    "JavaScript/-Node.js/bibliotecas/externas/node-schedule.md",
     "JavaScript/fundamentos/Objetos-Propriedades-Acessoras.md",
     "JavaScript/-Node.js/bibliotecas/externas/body-parser.md",
-    "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/bibliotecas/externas/express.md",
     "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
@@ -192,7 +193,6 @@
     "rascunhos/-cursoSenac/persona 1.md",
     "rascunhos/-cursoSenac/moodBoard.md",
     "JavaScript/fundamentos/function-factory.md",
-    "JavaScript/Objetos-Globais/Array/README.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
