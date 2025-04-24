@@ -11,10 +11,14 @@
             "id": "5465cacc23362779",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "rascunhos/-cursoSenac/-sala.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "-sala"
             }
           }
         ],
