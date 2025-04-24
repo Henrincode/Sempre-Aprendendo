@@ -30,3 +30,18 @@ table {vertical-align: top;
 
 td {vertical-align: top;
 }
+
+#artigo {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#barra-lateral {
+
+}
+.botoes-grande{
+    
+}
