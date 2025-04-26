@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db33593c1a6d9be7",
+        "id": "d34d57f65ff18333",
         "type": "tabs",
         "children": [
           {
-            "id": "2b9b19cdfddae109",
+            "id": "3d043737a219a56b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,15 +165,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2b9b19cdfddae109",
+  "active": "9d34f146e07baef5",
   "lastOpenFiles": [
+    "JavaScript/-Node.js/bibliotecas.md",
+    "JavaScript/Funcoes-Globais/README.md",
+    "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/-Node.js/bibliotecas/internas/http.md",
     "JavaScript/fundamentos/Promises.md",
     "JavaScript/-Node.js/bibliotecas/externas/body-parser.md",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
     "JavaScript/README.md",
     "JavaScript/Objetos-Globais/Number/README.md",
-    "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "rascunhos/-cursoSenac/-sala.md",
     "rascunhos/Senac.md",
@@ -192,8 +194,6 @@
     "JavaScript/fundamentos/Objetos-Propriedades-Acessoras.md",
     "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "JavaScript/-Node.js/bibliotecas/externas/express.md",
-    "JavaScript/-Node.js/bibliotecas/externas/lodash.md",
-    "JavaScript/-Node.js/bibliotecas/externas/nodemon.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
