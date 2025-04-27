@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d34d57f65ff18333",
+        "id": "8c0e928d7750f74c",
         "type": "tabs",
         "children": [
           {
-            "id": "3d043737a219a56b",
+            "id": "ecc1c402f50dda1b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,13 +165,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "9d34f146e07baef5",
+  "active": "ecc1c402f50dda1b",
   "lastOpenFiles": [
+    "JavaScript/fundamentos/Promises.md",
     "JavaScript/-Node.js/bibliotecas.md",
     "JavaScript/Funcoes-Globais/README.md",
     "JavaScript/Objetos-Globais/String/README.md",
     "JavaScript/-Node.js/bibliotecas/internas/http.md",
-    "JavaScript/fundamentos/Promises.md",
     "JavaScript/-Node.js/bibliotecas/externas/body-parser.md",
     "JavaScript/-Node.js/bibliotecas/REDME.md",
     "JavaScript/README.md",
