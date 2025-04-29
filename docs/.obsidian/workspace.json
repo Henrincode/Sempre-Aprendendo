@@ -11,10 +11,14 @@
             "id": "ecc1c402f50dda1b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LGPD.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "LGPD"
             }
           }
         ],
@@ -167,6 +171,7 @@
   },
   "active": "ecc1c402f50dda1b",
   "lastOpenFiles": [
+    "LGPD.md",
     "JavaScript/fundamentos/Promises.md",
     "JavaScript/-Node.js/bibliotecas.md",
     "JavaScript/Funcoes-Globais/README.md",
@@ -193,7 +198,6 @@
     "JavaScript/-Node.js/bibliotecas/externas/node-schedule.md",
     "JavaScript/fundamentos/Objetos-Propriedades-Acessoras.md",
     "JavaScript/-Node.js/bibliotecas/externas/axios.md",
-    "JavaScript/-Node.js/bibliotecas/externas/express.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
