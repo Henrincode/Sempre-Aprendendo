@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cbcb7a724845377e",
+        "id": "3722a602b8df3507",
         "type": "tabs",
         "children": [
           {
-            "id": "e75ca460c8e33832",
+            "id": "d096beb0f0ea7754",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e75ca460c8e33832",
+  "active": "d096beb0f0ea7754",
   "lastOpenFiles": [
+    "JavaScript/fundamentos/Regex.md",
     "LGPD.md",
     "JavaScript/fundamentos/Promises.md",
     "JavaScript/-Node.js/bibliotecas.md",
@@ -193,7 +194,6 @@
     "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/bibliotecas/externas/node-schedule.md",
     "JavaScript/fundamentos/Objetos-Propriedades-Acessoras.md",
-    "JavaScript/-Node.js/bibliotecas/externas/axios.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
