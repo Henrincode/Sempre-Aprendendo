@@ -1,3 +1,5 @@
+// Aprendendo a usar async e await
+
 function esperarPor(tempo = 2000) {
   return new Promise(resolve => {
     setTimeout(() => resolve(), tempo);
