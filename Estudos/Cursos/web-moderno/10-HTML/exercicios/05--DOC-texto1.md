@@ -35,12 +35,6 @@
 
 # 📘 O que foi aprendido:
 
-### 🌐 **O que é HTML?**
-
-HTML (HyperText Markup Language) é a linguagem usada para **criar e estruturar páginas da web**. Com HTML, você define o conteúdo da página usando **tags** como `<h1>`, `<p>`, `<img>`, entre muitas outras.
-
----
-
 ### 🏷️ **Tags de Cabeçalho (`<h1>` até `<h6>`)**
 
 Essas tags são usadas para títulos e subtítulos:
