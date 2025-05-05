@@ -24,7 +24,7 @@
 
       <!-- Subpasta config dentro da pasta app -->
       <li>
-        <span wm-folder>config.js</span>
+        <span wm-folder>config</span>
         <ul>
           <!-- Arquivos dentro de config.js -->
           <li>banco.js</li>
@@ -73,12 +73,6 @@
 ---
 
 # 📘 O que foi aprendido:
-
-### 🌐 **Linguagem HTML**
-
-HTML (HyperText Markup Language) é a linguagem padrão para criar páginas da web. Ela usa **tags** para estruturar o conteúdo, como `<h1>`, `<ul>`, `<li>`, entre outras.
-
----
 
 ### 🌳 **Árvore de arquivos com `<ul>` e `<li>`**
 
