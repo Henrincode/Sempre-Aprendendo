@@ -17,6 +17,7 @@
     <a href wm-nav="exercicios/05-texto1.html">01 - texto 1</a> |
     <a href wm-nav="exercicios/06-texto2.html">02 - texto 2</a> |
     <a href wm-nav="exercicios/07-listas.html">03 - listas</a> |
+    <a href wm-nav="exercicios/08-listaAninhada.html">04 - Lista Aninhada</a> |
   </nav>
   <section id="conteudo"></section>
   <footer>Curso de Web Moderno</footer>
@@ -26,12 +27,28 @@
 
       link.onclick = function (e) {
         e.preventDefault();
+
         fetch(link.getAttribute("wm-nav"))
           .then(resp => resp.text())
-          .then(html => (conteudo.innerHTML = html));
+          .then(html => {
+            conteudo.innerHTML = html;
+
+            // Executa scripts manualmente
+            conteudo.querySelectorAll("script").forEach(script => {
+              const novoScript = document.createElement("script");
+              if (script.src) {
+                novoScript.src = script.src;
+                novoScript.async = false;
+              } else {
+                novoScript.textContent = script.textContent;
+              }
+              document.body.appendChild(novoScript); // ou conteudo.appendChild
+            });
+          });
       };
     });
   </script>
+
 </body>
 
 </html>
