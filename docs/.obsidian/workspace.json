@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3722a602b8df3507",
+        "id": "100da3f4be804c9b",
         "type": "tabs",
         "children": [
           {
-            "id": "d096beb0f0ea7754",
+            "id": "fce428f833b2376a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d096beb0f0ea7754",
+  "active": "fce428f833b2376a",
   "lastOpenFiles": [
+    "HTML/tags/h1 ... h6.md",
+    "HTML/tags/a.md",
+    "HTML/tags",
     "JavaScript/fundamentos/Regex.md",
     "LGPD.md",
     "JavaScript/fundamentos/Promises.md",
@@ -192,8 +195,6 @@
     "JavaScript/Objetos-Globais/Object/README.md",
     "JavaScript/Objetos-Globais/process",
     "JavaScript/-Node.js/npm.md",
-    "JavaScript/-Node.js/bibliotecas/externas/node-schedule.md",
-    "JavaScript/fundamentos/Objetos-Propriedades-Acessoras.md",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_PT.pdf",
@@ -202,7 +203,6 @@
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_EN.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_BR.pdf",
     "certificados/CERTIFICADO-FormacaoDev-19h03m-Projeto-Ordem-Livro_BR.pdf",
-    "certificados/CERTIFICADO-FormacaoDev-19h03m-Projeto-Convit3-Digital_PT.pdf",
     "img/Moodboard-04.jpg",
     "img/Moodboard-03.webp",
     "img/Moodboard-01.webp",
