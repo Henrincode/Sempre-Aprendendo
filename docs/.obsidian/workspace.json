@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "386ead4ff9f7d270",
+        "id": "6ab6427e2235d972",
         "type": "tabs",
         "children": [
           {
-            "id": "7742552086217a56",
+            "id": "5f16fd2eb8957ecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "parse",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,8 +169,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "7742552086217a56",
+  "active": "5f16fd2eb8957ecf",
   "lastOpenFiles": [
+    "LGPD.md",
+    "Tarefas.md",
+    "rascunhos/Sem título 1.md",
+    "rascunhos/Senac.md",
+    "rascunhos/rascunho estrutura.md",
     "HTML/tags/table.md",
     "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/package.json.md",
@@ -178,7 +183,6 @@
     "HTML/tags/a.md",
     "HTML/tags",
     "JavaScript/fundamentos/Regex.md",
-    "LGPD.md",
     "JavaScript/fundamentos/Promises.md",
     "JavaScript/-Node.js/bibliotecas.md",
     "JavaScript/Funcoes-Globais/README.md",
@@ -190,14 +194,10 @@
     "JavaScript/Objetos-Globais/Number/README.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "rascunhos/-cursoSenac/-sala.md",
-    "rascunhos/Senac.md",
     "rascunhos/-cursoSenac/persona 2 resposta.md",
     "rascunhos/-cursoSenac/persona 1 resposta.md",
     "rascunhos/-cursoSenac/persona 1.md",
     "rascunhos/-cursoSenac/Persona.md",
-    "rascunhos/-cursoSenac/moodBoard.md",
-    "rascunhos/-cursoSenac/Briefing.md",
-    "rascunhos/-cursoSenac/Bot-agente.md",
     "JavaScript/Objetos-Globais/process",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
