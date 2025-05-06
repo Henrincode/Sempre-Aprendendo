@@ -1,40 +1,104 @@
-# ✅ Código com comentários:
+## ✅ Código HTML comentado
 
 ```html
 <!-- Título principal da página -->
 <h1>Formulário</h1>
 
-<!-- Formulário que envia dados para o servidor -->
-<form action="http://localhost:3003/usuarios" method="post">
-  <!-- Campo de texto para digitar o nome -->
+<!-- Início do formulário com método POST. Os dados serão enviados para a URL definida em cada botão com 'formaction' -->
+<form method="post">
+  <!-- Campo oculto com o ID do usuário -->
+  <input type="hidden" name="id" value="3" />
+
+  <!-- Campo de texto para o nome do usuário -->
   <input type="text" name="nome" />
 
-  <!-- Botão para enviar o formulário -->
-  <button>Enviar</button>
+  <!-- Campo para digitar a senha (oculta os caracteres) -->
+  <input type="password" name="senha" />
+
+  <!-- Área de texto maior para uma descrição ou biografia -->
+  <textarea name="bio" cols="30" rows="10"></textarea>
+
+  <!-- Seleção de tipo de usuário com botões de opção (radio) -->
+  <div>
+    <input type="radio" name="tipo" value="admin" /> Adm
+    <input type="radio" name="tipo" value="redular" /> Regular
+    <input type="radio" name="tipo" value="professor" /> Professor
+  </div>
+
+  <!-- Caixa de seleção (checkbox) para marcar se o usuário está ativo -->
+  <div><input type="checkbox" name="ativo" /> Ativo</div>
+
+  <!-- Menu suspenso para selecionar o estado -->
+  <select name="estado">
+    <option value="">Selecione</option>
+    <option value="ac">Acre</option>
+    <option value="ba">Bahia</option>
+    <option value="ce">Ceará</option>
+  </select>
+
+  <!-- Seleção múltipla para interesses (segure Ctrl ou Shift para selecionar mais de um) -->
+  <select name="interesses" multiple size="5">
+    <option value="js">Javascript</option>
+    <option value="java">JAVA</option>
+    <option value="php">PHP</option>
+    <option value="python">Python</option>
+    <option value="go">GO</option>
+    <option value="c">C</option>
+  </select>
+
+  <!-- Botões com ações diferentes para envio dos dados -->
+  <button formaction="http://localhost:3003/usuarios">Incluir</button>
+  <button formaction="http://localhost:3003/usuarios/3">Alterar</button>
 </form>
+
+<!-- Estilização básica para os campos do formulário -->
+<style>
+  input,
+  textarea,
+  select {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline;
+  }
+</style>
 ```
 
-```js
-// Importa o framework Express para criar o servidor
-const express = require("express");
+---
 
-// Cria uma instância da aplicação Express
+## ✅ Código Node.js comentado
+
+```js
+// Importa o framework Express
+const express = require("express");
 const app = express();
 
-// Importa o body-parser para interpretar os dados do corpo da requisição
+// Importa o body-parser para lidar com os dados enviados nos formulários
 const bodyParser = require("body-parser");
 
-// Configura o Express para usar o body-parser e interpretar dados no formato x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
+// Middleware para interpretar dados no formato x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true })); // Corrigido "extend" para "extended"
 
-// Define a rota POST para /usuarios
-// Quando o formulário for enviado, os dados serão capturados aqui
+// Rota POST para criação de usuário
 app.post("/usuarios", (req, resp) => {
   // Exibe os dados enviados no terminal
   console.log(req.body);
 
-  // Envia uma resposta HTML para o navegador
-  resp.send("<h1>Parabéns</h1>");
+  // Envia resposta para o navegador
+  resp.send("<h1>Parabéns. Usuário cadastrado!</h1>");
+});
+
+// Rota POST para alteração de usuário existente
+app.post("/usuarios/:id", (req, resp) => {
+  // Exibe o ID da URL e os dados do corpo
+  console.log(req.params.id);
+  console.log(req.body);
+
+  // Envia resposta ao navegador
+  resp.send("<h1>Parabéns. Usuário alterado!</h1>");
 });
 
 // Inicia o servidor na porta 3003
@@ -43,31 +107,38 @@ app.listen(3003);
 
 ---
 
-# 📘 O que foi aprendido:
+## 📘 O que foi aprendido
 
-### 📝 **Formulários HTML e envio de dados**
+### 🧾 **Formulários HTML com diferentes campos**
 
-- A tag `<form>` é usada para criar formulários que enviam dados ao servidor.
-- O atributo `action` define **para onde os dados serão enviados** (neste caso, `http://localhost:3003/usuarios`).
-- O atributo `method="post"` define o **método de envio**. Aqui usamos `POST`, que envia os dados no **corpo da requisição**, ideal para dados sensíveis ou grandes.
-- `<input type="text" name="nome">` cria um campo de texto. O atributo `name` é o **identificador do dado** que será enviado ao servidor.
-- `<button>` é o botão que **envia** o formulário.
+- Aprendemos a usar vários elementos HTML para entrada de dados:
 
----
+  - `<input type="text">` e `<input type="password">` para texto e senha.
+  - `<textarea>` para textos maiores como biografias.
+  - `<input type="radio">` para selecionar **um** entre vários tipos (admin, regular, professor).
+  - `<input type="checkbox">` para marcar se o usuário está ativo.
+  - `<select>` e `<option>` para listas suspensas (com ou sem múltiplas seleções).
 
-### 🚀 **Servidor com Express + body-parser**
-
-- Usamos o **Express** para criar rapidamente um servidor web.
-- A biblioteca **body-parser** é usada para interpretar os dados do formulário enviados com `POST`. Sem ela, o `req.body` seria `undefined`.
-- `app.use(bodyParser.urlencoded({ extended: true }))` ativa essa interpretação para formulários do tipo `x-www-form-urlencoded`, que é o padrão de envio do HTML.
-- A rota `app.post("/usuarios", ...)` responde às requisições feitas pelo formulário.
-- `req.body` contém os dados enviados, por exemplo: `{ nome: 'João' }`.
-- `res.send("<h1>Parabéns</h1>")` envia uma resposta HTML simples para o navegador.
+- Usamos `formaction` nos botões para enviar o mesmo formulário para URLs diferentes (útil para "Incluir" ou "Alterar").
 
 ---
 
-### 📌 **Resumo prático**
+### 🚀 **Servidor com Express e rotas dinâmicas**
 
-- Criamos um formulário simples em HTML.
-- Usamos um servidor Express com body-parser para receber e tratar os dados enviados.
-- Ao preencher e enviar o formulário, o nome digitado é mostrado no terminal e o usuário recebe uma resposta na tela.
+- O servidor foi criado com **Express**, e os dados dos formulários são lidos com **body-parser**.
+- `app.use(bodyParser.urlencoded({ extended: true }))` habilita o servidor a entender os dados de formulários HTML.
+- Criamos duas rotas POST:
+
+  - `/usuarios` → cria um novo usuário.
+  - `/usuarios/:id` → altera o usuário com o ID especificado.
+
+- `req.body` exibe os dados enviados pelo formulário e `req.params.id` mostra o ID da URL.
+
+---
+
+### 🧠 **Resumo prático**
+
+- O formulário HTML agora aceita vários tipos de entrada de dados.
+- Usamos `formaction` para direcionar os envios a diferentes rotas.
+- O servidor Express recebe, processa e responde com base nos dados.
+- Vimos como capturar tanto o corpo da requisição (`req.body`) quanto parâmetros da URL (`req.params`).
