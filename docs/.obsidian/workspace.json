@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ccf4af8c3e20a1cc",
+        "id": "57419c69f271830a",
         "type": "tabs",
         "children": [
           {
-            "id": "e85ee83525ad38c5",
+            "id": "b7ff0b3361947fb6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e85ee83525ad38c5",
+  "active": "b7ff0b3361947fb6",
   "lastOpenFiles": [
+    "rascunhos/sites favoritos no curso.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/README.md",
     "LGPD.md",
@@ -193,7 +194,6 @@
     "rascunhos/-cursoSenac/persona 2 resposta.md",
     "rascunhos/-cursoSenac/persona 1 resposta.md",
     "rascunhos/-cursoSenac/persona 1.md",
-    "rascunhos/-cursoSenac/Persona.md",
     "JavaScript/Objetos-Globais/process",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
