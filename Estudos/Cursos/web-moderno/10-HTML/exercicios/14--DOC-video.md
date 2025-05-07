@@ -1,4 +1,4 @@
-# ✅ Códigos com comentários:
+# ✅ Código com comentários:
 
 ```html
 <!-- Elemento de vídeo com configurações personalizadas -->
