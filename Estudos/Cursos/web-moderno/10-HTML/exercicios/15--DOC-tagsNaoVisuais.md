@@ -4,8 +4,9 @@
 <h1>Tags Não Visuais</h1>
 
 <!-- 
-🔍 Tags Semânticas:
-São tags que dão significado ao conteúdo da página, facilitando a leitura por humanos e por mecanismos de busca.
+Tags Semânticas:
+São tags que dão significado ao conteúdo da página, facilitando a leitura por humanos e
+por mecanismos de busca.
 
 section - Representa uma seção temática de conteúdo (ex: capítulo, grupo de artigos).
 article - Representa um conteúdo independente e auto-contido (ex: post de blog, notícia).
@@ -15,7 +16,7 @@ nav - Agrupa links de navegação principais.
 aside - Conteúdo à parte, geralmente relacionado ao conteúdo principal (ex: barra lateral).
 details - Contém informações adicionais que podem ser exibidas ou ocultadas.
 
-📦 Tags Genéricas (não semânticas):
+Tags Genéricas (não semânticas):
 div - Container de bloco, usado para agrupar elementos e aplicar estilos.
 span - Container em linha (inline), usado para aplicar estilos a partes específicas de um texto.
 -->
