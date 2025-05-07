@@ -1,7 +1,5 @@
 # ✅ Códigos com comentários:
 
-### `video-player.html`
-
 ```html
 <!-- Elemento de vídeo com configurações personalizadas -->
 <!-- Atributos:
