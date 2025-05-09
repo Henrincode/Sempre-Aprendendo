@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "57419c69f271830a",
+        "id": "64ddbe42a7977212",
         "type": "tabs",
         "children": [
           {
-            "id": "b7ff0b3361947fb6",
+            "id": "f5966177c90fa57b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b7ff0b3361947fb6",
+  "active": "f5966177c90fa57b",
   "lastOpenFiles": [
+    "HTML/tags/table.md",
     "rascunhos/sites favoritos no curso.md",
     "JavaScript/Objetos-Globais/Array/README.md",
     "JavaScript/README.md",
@@ -175,7 +176,6 @@
     "rascunhos/Sem título 1.md",
     "rascunhos/Senac.md",
     "rascunhos/rascunho estrutura.md",
-    "HTML/tags/table.md",
     "JavaScript/-Node.js/npm.md",
     "JavaScript/-Node.js/package.json.md",
     "HTML/tags/h1 ... h6.md",
