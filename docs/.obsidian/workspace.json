@@ -11,10 +11,14 @@
             "id": "f5966177c90fa57b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CSS/position.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "position"
             }
           }
         ],
@@ -167,6 +171,8 @@
   },
   "active": "f5966177c90fa57b",
   "lastOpenFiles": [
+    "CSS/position.md",
+    "CSS",
     "HTML/tags/table.md",
     "rascunhos/sites favoritos no curso.md",
     "JavaScript/Objetos-Globais/Array/README.md",
@@ -193,7 +199,6 @@
     "rascunhos/-cursoSenac/-sala.md",
     "rascunhos/-cursoSenac/persona 2 resposta.md",
     "rascunhos/-cursoSenac/persona 1 resposta.md",
-    "rascunhos/-cursoSenac/persona 1.md",
     "JavaScript/Objetos-Globais/process",
     "HTML",
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_PT.pdf",
@@ -202,7 +207,6 @@
     "certificados/CERTIFICADO-FormacaoDev-11h50mPortfólio-Full-Stack-Agentes-de-IA_EN.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_EN.pdf",
     "certificados/CERTIFICADO-FormacaoDev-09h40m-Projeto-Ordem-Livro_BR.pdf",
-    "certificados/CERTIFICADO-FormacaoDev-19h03m-Projeto-Ordem-Livro_BR.pdf",
     "img/Moodboard-04.jpg",
     "img/Moodboard-03.webp",
     "img/Moodboard-01.webp",
