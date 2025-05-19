@@ -4,7 +4,9 @@
 
 O Flexbox é um modelo de layout unidimensional do CSS3 que permite distribuir espaço entre os itens de um contêiner, mesmo quando seu tamanho é desconhecido ou dinâmico. Ele facilita o alinhamento e a distribuição de espaço entre os elementos em uma interface, tornando o design mais responsivo e eficiente.
 
-![FlexBox Ilustrado](../img/flexbox-ilustrado.webp)
+<p align="center">
+  <img src="../img/flexbox-ilustrado.webp" alt="FlexBox Ilustrado">
+</p>
 
 ### 2. Ativando o Flexbox
 
