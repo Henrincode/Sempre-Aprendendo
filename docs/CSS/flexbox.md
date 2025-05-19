@@ -1,7 +1,7 @@
 ## 📘 Guia Prático de Flexbox com Exemplos Visuais
 
 
-![FlexBox Ilustrado](flexbox-ilustrado.webp)
+![FlexBox Ilustrado](../IMG/flexbox-ilustrado.webp)
 
 ### 1. Conceito de Flexbox
 
