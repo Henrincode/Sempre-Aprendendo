@@ -76,7 +76,7 @@ npm install -g live-server
 npm install -g ngrok
 ```
 
-Ou use sem instalar:
+Ou usar sem instalar:
 
 ```bash
 npx ngrok
@@ -84,47 +84,80 @@ npx ngrok
 
 ---
 
+## 🆔 Criar conta no ngrok e configurar token de autenticação
+
+A partir da versão 3.x, o ngrok **exige que você tenha uma conta grátis e configure um token para usar túneis**.
+
+### Passo a passo:
+
+1. Crie uma conta grátis no site oficial:
+    
+    [https://dashboard.ngrok.com/signup](https://dashboard.ngrok.com/signup)
+    
+    - Você pode usar e-mail ou login via GitHub, Google, etc.
+        
+2. Após criar a conta e fazer login, acesse a página para copiar seu token:
+    
+    [https://dashboard.ngrok.com/get-started/your-authtoken](https://dashboard.ngrok.com/get-started/your-authtoken)
+    
+3. No terminal, configure seu ngrok local com o token (só precisa fazer uma vez):
+    
+
+Se instalou
+
+```bash
+ngrok config add-authtoken SEU_TOKEN_AQUI
+```
+
+Se não instalou
+
+```bash
+npx ngrok config add-authtoken SEU_TOKEN_AQUI
+```
+
+Substitua `SEU_TOKEN_AQUI` pelo token copiado no site.
+
+---
+
 ## 🚀 Rodando o site local com Live Server
 
-### 1. Iniciar com suporte a acesso externo:
+### 1. Iniciar o live-server aceitando conexões externas:
 
 ```bash
 live-server --host=0.0.0.0
 ```
 
-Esse comando permite que outros dispositivos (como o celular ou o `ngrok`) acessem seu servidor local.
-
 ---
 
 ## 🌍 Expondo o site com Ngrok
 
-### 1. Abrir túnel com Ngrok:
+### 1. Abrir túnel com ngrok:
 
 ```bash
 ngrok http 8080
 ```
 
-> Substitua `8080` pela porta do `live-server`, se for diferente.
+Ou, se estiver usando npx:
 
-### 2. Ngrok irá mostrar algo como:
+```bash
+npx ngrok http 8080
+```
+
+> Substitua `8080` pela porta que seu live-server está rodando.
+
+### 2. Ngrok mostrará algo como:
 
 ```
 Forwarding https://abc12345.ngrok.io -> http://localhost:8080
 ```
 
-### 3. Acessar pelo celular ou outro computador:
-
-No navegador do celular:
-
-```
-https://abc12345.ngrok.io
-```
+### 3. Agora acesse pelo celular ou outro dispositivo a URL HTTPS fornecida.
 
 ---
 
-## 🔐 (Opcional) Adicionar autenticação
+## 🔐 (Opcional) Adicionar autenticação para acesso ao túnel
 
-Para proteger o acesso com usuário e senha:
+Proteja seu túnel com usuário e senha:
 
 ```bash
 ngrok http 8080 --auth="usuario:senha"
@@ -154,7 +187,7 @@ ngrok http 8080 --auth="admin:1234"
 
 ## 🛠 Dica: Scripts no package.json
 
-Se estiver usando Node.js, pode facilitar os comandos criando scripts:
+Para facilitar, crie scripts no seu `package.json`:
 
 ```json
 "scripts": {
@@ -163,13 +196,22 @@ Se estiver usando Node.js, pode facilitar os comandos criando scripts:
 }
 ```
 
-Depois use:
+Use:
 
 ```bash
 npm run start
 # Em outro terminal:
 npm run tunnel
 ```
+
+---
+
+## ℹ️ Nota importante sobre o token de autenticação
+
+- O comando `npx ngrok config add-authtoken SEU_TOKEN` precisa ser executado **apenas uma vez por máquina**.
+    
+- Depois disso, o token fica salvo localmente e você pode usar `npx ngrok http 8080` quantas vezes quiser **sem precisar adicionar o token de novo**.
+    
 
 ---
 
@@ -185,3 +227,7 @@ Ngrok é uma ferramenta indispensável para quem:
     
 
 É seguro, prático e muito útil para desenvolvedores, especialmente em ambientes de testes e aprendizado.
+
+---
+
+Quer que eu gere esse conteúdo em Markdown, PDF, ou te ajude a montar o passo a passo no seu projeto?
