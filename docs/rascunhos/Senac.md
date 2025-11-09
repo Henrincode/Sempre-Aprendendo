@@ -1,1 +1,0 @@
-Resolver se faz um novo repositório ou continua com o mesmo do curso Senac e UC1 ao UC10
