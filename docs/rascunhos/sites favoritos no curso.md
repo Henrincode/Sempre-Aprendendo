@@ -31,6 +31,7 @@
 ## 📚 **Outros Recursos Úteis**
 
 - 🧭 [TechGuide.sh](https://techguide.sh/) – Roteiro de estudos para desenvolvimento de software.
+- 🔍 [RoadMap.sh](https://roadmap.sh/) – Roteiro de estudos para desenvolvimento de software.
     
 
 ---
