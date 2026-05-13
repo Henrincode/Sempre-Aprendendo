@@ -1,58 +1,105 @@
-### 🚀 Fluxo de Configuração: Do Zero ao Ambiente Pronto
+# Fluxo de Configuração: Do Zero ao Ambiente Pronto
 
 Siga esta ordem para garantir que as dependências e permissões de segurança sejam aplicadas corretamente:
 
-#### 1. Preparação do Sistema (PowerShell Adm)
+## 1. Preparação do Sistema (PowerShell Adm)
 Antes de tudo, desbloqueie a execução de scripts para que os gerenciadores funcionem.
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-#### 2. Instalação das Ferramentas Base (Winget)
-Instale o gerenciador de Node, o controle de versão (Git) e o editor de código.
-```powershell
-# Gerenciador de Versões do Node
-winget install -e --id CoreyButler.NVMforWindows
+## 2. Instalação das Ferramentas Base (Winget)
 
-# Git para controle de versão
-winget install -e --id Git.Git
+Abra o PowerShell como administrador e rode os comandos abaixo:
 
-# VS Code (Seu IDE principal)
-winget install -e --id Microsoft.VisualStudioCode
-```
-> **Nota:** Feche e abra o terminal após estas instalações para o Windows reconhecer os novos comandos.
+- Google Chrome (Browser)
 
-#### 3. Configuração do Node e pnpm
+    ```powershell
+    winget install -e --id Google.Chrome
+    ```
+
+- VS Code (IDE principal)
+
+    ```powershell
+    winget install -e --id Microsoft.VisualStudioCode
+    ```
+
+- Git (Controle de versão)
+
+    ```powershell
+    winget install -e --id Git.Git
+    ```
+
+- NVM (Gerenciador de versões do Node)
+
+    ```powershell
+    winget install -e --id CoreyButler.NVMforWindows
+    ```
+
+- Android Studio
+
+    ```powershell
+    winget install -e --id Google.AndroidStudio
+    ```
+
+***Nota:** Feche e abra o terminal após estas instalações para o Windows reconhecer os novos comandos.*
+
+## 3. Configuração do Node e pnpm
 Agora instale o motor do seu desenvolvimento Web.
-```powershell
-# Instala e ativa a versão estável (LTS v24.15.0)
-nvm install lts
-nvm use lts
 
-# Habilita o pnpm nativamente
-corepack enable pnpm
-```
+- Instala a versão estável (LTS)
 
-#### 4. Integração Git + VS Code (Tratamento de Conflitos)
+    ```powershell
+    nvm install lts
+    ```
+
+- Ativa a versão LTS
+
+    ```powershell
+    nvm use lts
+    ```
+
+- Habilita o pnpm nativamente **opcional*
+
+    ```powershell
+    corepack enable pnpm
+    ```
+
+## 4. Integração Git + VS Code (Tratamento de Conflitos)
 Configure o Git para usar a interface visual do VS Code em vez do terminal para resolver problemas de código.
-```powershell
-# Define o VS Code como editor de mensagens e commits
-git config --global core.editor "code --wait"
 
-# Configura o VS Code como a ferramenta oficial de MERGE (conflitos)
-git config --global merge.tool vscode
-git config --global mergetool.vscode.cmd "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
-```
+- Define o VS Code como editor de mensagens e commits
 
-#### 5. Ambiente Mobile (Android Studio)
-Finalize instalando o pesado para o desenvolvimento mobile.
-```powershell
-winget install -e --id Google.AndroidStudio
-```
+    ```powershell
+    git config --global core.editor "code --wait"
+    ```
 
----
+- Configura o VS Code como a ferramenta oficial de MERGE (conflitos)
 
-### Como testar se o fluxo deu certo?
+    ```powershell
+    git config --global merge.tool vscode
+    ```
+
+    ```powershell
+    git config --global mergetool.vscode.cmd "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
+    ```
+
+### Configurar usuário e email
+
+Quando instalamos o git via terminal é necessário configurar o nome de usuário e email:
+
+- Nome de usuário do github
+
+    ```powershell
+    git config --global user.name "seu-nome"
+    ```
+
+- E-Mail do github
+
+    ```powershell
+    git config --global user.email "seu-email@exemplo.com"
+    ```
+## Como testar se o fluxo deu certo?
 Para garantir que a integração do Git com o VS Code funcionou, você pode rodar:
 `git config --global -l`
 
